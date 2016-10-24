@@ -37,23 +37,26 @@
   <div class="catalog__main-content">
     <div class="filter">
       <div class="filter__title">Фильтр:</div>
-      <form action="#" class="filter__price">
-        <label class="filter__title">Стоимость<input type="slider"></label>
+      <form action="#">
+        <fieldset class="filter__price">
+          <legend class="filter__title">Стоимость</legend>
+          <label><input type="slider"></label>
+        </fieldset>
+        <fieldset class="filter__color">
+          <legend class="filter__title">Цвет</legend>
+          <label>Черный<input type="checkbox" class="filter__checkbox" checked></label>
+          <label>Белый<input type="checkbox" class="filter__checkbox"></label>
+          <label>Синий<input type="checkbox" class="filter__checkbox" checked></label>
+          <label>Красный<input type="checkbox" class="filter__checkbox" checked></label>
+          <label>Розовый<input type="checkbox" class="filter__checkbox"></label>
+        </fieldset>
+        <fieldset class="filter__extra">
+          <legend class="filter__title">Bluetooth</legend>
+          <label><input type="radio" name="gender" value="yes" checked>Есть</label>
+          <label><input type="radio" name="gender" value="no">Нет</label>
+        </fieldset>
+        <button type="submit" class="filter__submit">Показать</button>
       </form>
-      <form action="#" class="filter__color">
-        <span class="filter__title">Цвет</span>
-        <label>Черный<input type="checkbox" class="filter__checkbox" checked></label>
-        <label>Белый<input type="checkbox" class="filter__checkbox"></label>
-        <label>Синий<input type="checkbox" class="filter__checkbox" checked></label>
-        <label>Красный<input type="checkbox" class="filter__checkbox" checked></label>
-        <label>Розовый<input type="checkbox" class="filter__checkbox"></label>
-      </form>
-      <form action="#" class="filter__extra">
-        <span class="filter__title">Bluetooth</span>
-        <label><input type="radio" name="gender" value="yes" checked>Есть</label>
-        <label><input type="radio" name="gender" value="no">Нет</label>
-      </form>
-      <button class="filter__submit">Показать</button>
     </div>
     <div class="sorting">
       <span class="sorting__title">Сортировка:</span>
