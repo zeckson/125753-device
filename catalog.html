@@ -35,7 +35,26 @@
     </ul>
   </nav>
   <div class="catalog__main-content">
-    <div class="catalog__filter"></div>
+    <div class="filter">
+      <div class="filter__title">Фильтр:</div>
+      <form action="#" class="filter__price">
+        <label class="filter__title">Стоимость<input type="slider"></label>
+      </form>
+      <form action="#" class="filter__color">
+        <span class="filter__title">Цвет</span>
+        <label>Черный<input type="checkbox" class="filter__checkbox" checked></label>
+        <label>Белый<input type="checkbox" class="filter__checkbox"></label>
+        <label>Синий<input type="checkbox" class="filter__checkbox" checked></label>
+        <label>Красный<input type="checkbox" class="filter__checkbox" checked></label>
+        <label>Розовый<input type="checkbox" class="filter__checkbox"></label>
+      </form>
+      <form action="#" class="filter__extra">
+        <span class="filter__title">Bluetooth</span>
+        <label><input type="radio" name="gender" value="yes" checked>Есть</label>
+        <label><input type="radio" name="gender" value="no">Нет</label>
+      </form>
+      <button class="filter__submit">Показать</button>
+    </div>
     <div class="sorting">
       <span class="sorting__title">Сортировка:</span>
       <ul class="sorting__types">
@@ -64,7 +83,8 @@
         <span class="card__price">2 500 руб.</span>
       </article>
       <article class="card">
-        <img class="card__photo" src="http://placehold.it/200x400" alt="Селфи-палка &laquo;Следуй за мной&raquo;" width="
+        <img class="card__photo" src="http://placehold.it/200x400" alt="Селфи-палка &laquo;Следуй за мной&raquo;"
+             width="
              200" height="400">
         <h3 class="card__title">Селфи-палка &laquo;Следуй за мной&raquo;</h3>
         <span class="card__price">4 900 руб.</span>
