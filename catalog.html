@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Девайс</title>
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 
@@ -10,9 +11,11 @@
   <h1 class="header__title"><a href="index.html">Device</a></h1>
   <nav class="navigation">
     <ul class="navigation__items">
-      <li><label>Поиск<input class="navigation__search" type="text"></label></li>
+      <li>
+        <form action="#search" method="post"><label>Поиск:<input class="navigation__search" type="text"></label></form>
+      </li>
       <li><a class="navigation__login" href="#login">Войти</a></li>
-      <li><a href="#compare" class="naviagation__compare">Сравнить</a></li>
+      <li><a href="#compare" class="navigation__compare">Сравнить</a></li>
       <li><a href="#baset" class="navigation__basket">Корзина</a></li>
     </ul>
   </nav>
@@ -66,33 +69,32 @@
         <li class="sorting__type">По популярности</li>
       </ul>
       <ul class="sort__order">
-        <li class="sort__order--up"><img src="http://placehold.it/10x10" alt="Up" width="10" height="10"></li>
-        <li class="sort__order--down"><img src="http://placehold.it/10x10" alt="Down" width="10" height="10"></li>
+        <li class="sort__order--up">Up</li>
+        <li class="sort__order--down">Down</li>
       </ul>
     </div>
     <div class="catalog__page">
       <article class="card">
-        <img class="card__photo" src="http://placehold.it/200x400" alt="Любительская селфи-палка" width="200"
-             height="400">
+        <img class="card__photo" src="img/item-1.jpg" alt="Любительская селфи-палка" width="360"
+             height="380">
         <h3 class="card__title">Любительская селфи-палка</h3>
         <span class="card__price">500 руб.</span>
       </article>
       <article class="card">
-        <img class="card__photo" src="http://placehold.it/200x400" alt="Профессиональная селфи-палка" width="200"
-             height="400">
+        <img class="card__photo" src="img/item-2.jpg" alt="Профессиональная селфи-палка" width="360"
+             height="380">
         <h3 class="card__title">Профессиональная селфи-палка</h3>
         <span class="card__price">1 500 руб.</span>
       </article>
       <article class="card">
-        <img class="card__photo" src="http://placehold.it/200x400" alt="Непотопляемая селфи-палка" width="200"
-             height="400">
+        <img class="card__photo" src="img/item-3.jpg" alt="Непотопляемая селфи-палка" width="360"
+             height="380">
         <h3 class="card__title">Непотопляемая селфи-палка</h3>
         <span class="card__price">2 500 руб.</span>
       </article>
       <article class="card">
-        <img class="card__photo" src="http://placehold.it/200x400" alt="Селфи-палка &laquo;Следуй за мной&raquo;"
-             width="
-             200" height="400">
+        <img class="card__photo" src="img/item-4.jpg" alt="Селфи-палка &laquo;Следуй за мной&raquo;"
+             width="360" height="380">
         <h3 class="card__title">Селфи-палка &laquo;Следуй за мной&raquo;</h3>
         <span class="card__price">4 900 руб.</span>
       </article>
@@ -113,7 +115,7 @@
   <div class="footer__navigation">
     <ul class="navigation__items">
       <li><a class="navigation__login" href="#login">Войти</a></li>
-      <li><a href="#compare" class="naviagation__compare">Сравнить</a></li>
+      <li><a href="#compare" class="navigation__compare">Сравнить</a></li>
       <li><a href="#baset" class="navigation__basket">Корзина</a></li>
     </ul>
   </div>
@@ -127,12 +129,12 @@
   </div>
   <p class="phone"><a href="tel:+74954959595">+7 (495) 495-95-95</a></p>
   <section class="footer-social">
-    <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-    <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-    <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+    <a class="social-button social-button--fb" href="#">Facebook</a>
+    <a class="social-button social-button--inst" href="#">Instagram</a>
+    <a class="social-button social-button--vk" href="#">Twitter</a>
   </section>
   <section class="footer-copyright">
-    <a class="btn" href="https://htmlacademy.ru"><img src="img/htmlacademy.png" alt="HTML Academy"></a>
+    <a href="https://htmlacademy.ru"><img src="img/htmlacademy.png" alt="HTML Academy" width="27" height="34"></a>
   </section>
 </footer>
 </body>
