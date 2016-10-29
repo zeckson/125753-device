@@ -85,3 +85,43 @@ h2 {
   display: table;
   clear: both;
 }
+
+.goods {
+  padding: 0 80px;
+}
+
+.goods__list {
+  list-style: none;
+}
+
+.goods__item {
+  display: none;
+}
+
+.goods__item--active {
+  display: block;
+}
+
+.good::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.good__photo {
+  box-sizing: border-box;
+  width: 440px;
+
+  float: left;
+}
+
+.good__content {
+  box-sizing: border-box;
+  width: 500px;
+
+  float: right;
+}
+
+.good__details {
+  list-style: none;
+}
