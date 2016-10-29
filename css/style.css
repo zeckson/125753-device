@@ -136,3 +136,43 @@ h2 {
 .catalog__item-title {
   display: block;
 }
+
+.features::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.features__menu {
+  width: 320px;
+  box-sizing: border-box;
+
+  float: left;
+}
+
+.features__content {
+  width: 880px;
+  box-sizing: border-box;
+
+  float: right;
+}
+
+.info::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.about {
+  width: 520px;
+  box-sizing: border-box;
+
+  float: left;
+}
+
+.contacts {
+  width: 680px;
+  box-sizing: border-box;
+
+  float: right;
+}
