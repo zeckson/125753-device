@@ -23,3 +23,65 @@ h2 {
   color: rgb(0, 0, 0);
   font-family: "Gilroy", serif;
 }
+
+/*Layout element*/
+.navigation__left {
+  box-sizing: border-box;
+  width: 200px;
+
+  float: left;
+}
+
+.navigation__right {
+  box-sizing: border-box;
+  width: 512px;
+  float: right;
+}
+
+.navigation__items {
+  list-style: none;
+}
+
+.navigation__item {
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.navigation__login {
+  margin-right: 170px;
+}
+
+.navigation::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sitemap__list {
+  list-style: none;
+}
+
+.sitemap__catalog {
+  width: 256px;
+  float: left;
+}
+
+.sitemap__contacts {
+  float: right;
+}
+
+.sitemap__warrant {
+  width: 220px;
+  float: right;
+}
+
+.sitemap__delivery {
+  width: 156px;
+  float: right;
+}
+
+.sitemap::after {
+  content: "";
+  display: table;
+  clear: both;
+}
