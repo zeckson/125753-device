@@ -61,6 +61,10 @@ h2 {
   list-style: none;
 }
 
+.sitemap__item {
+  display: inline-block;
+}
+
 .sitemap__catalog {
   width: 256px;
   float: left;
@@ -172,6 +176,82 @@ h2 {
 
 .contacts {
   width: 680px;
+  box-sizing: border-box;
+
+  float: right;
+}
+
+.footer__upper::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.footer__tile {
+  width: 200px;
+  box-sizing: border-box;
+  padding: 0 20px;
+
+  float: left;
+}
+
+.footer__navigation {
+  width: 400px;
+  box-sizing: border-box;
+
+  float: right;
+}
+
+.footer__middle::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.address {
+  width: 200px;
+
+  float: left;
+}
+
+.footer__sitemap {
+  box-sizing: border-box;
+  width: 800px;
+  padding: 0 200px;
+
+  float: left;
+}
+
+.phone {
+  box-sizing: border-box;
+  width: 160px;
+
+  float: right;
+}
+
+.footer__lower::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.footer__dash {
+  width: 120px;
+  box-sizing: border-box;
+
+  float: left;
+}
+
+.footer__social {
+  width: 1000px;
+  box-sizing: border-box;
+  padding: 0 300px;
+
+  float: left;
+}
+
+.footer__copyright {
+  width: 80px;
   box-sizing: border-box;
 
   float: right;
