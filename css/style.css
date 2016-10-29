@@ -125,3 +125,14 @@ h2 {
 .good__details {
   list-style: none;
 }
+
+.catalog__item {
+  width: 160px;
+  display: inline-block;
+
+  padding: 0 20px;
+}
+
+.catalog__item-title {
+  display: block;
+}
