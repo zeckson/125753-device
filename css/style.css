@@ -1,4 +1,7 @@
 body {
+  width: 1200px;
+  margin: 0 auto;
+
   font-size: 15px;
   line-height: 2;
   color: rgb(70, 70, 70);
