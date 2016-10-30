@@ -256,3 +256,66 @@ h2 {
 
   float: right;
 }
+
+.catalog__crumb {
+  display: inline-block;
+}
+
+.catalog__main::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.filter {
+  width: 348px;
+  box-sizing: border-box;
+
+  float: left;
+}
+
+.catalog__content {
+  width: 852px;
+  box-sizing: border-box;
+  padding: 0 20px;
+
+  float: right;
+}
+
+.sorting__types {
+  display: inline-block;
+}
+
+.sorting__type {
+  display: inline-block;
+}
+
+.sort__orders {
+  display: inline-block;
+}
+
+.sort__order {
+  display: inline-block;
+}
+
+.catalog__page::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.card {
+  width: 360px;
+  box-sizing: border-box;
+  margin: 20px;
+
+  float: left;
+}
+
+.pagination__page-numbers {
+  display: inline-block;
+}
+
+.pagination__page-number {
+  display: inline-block;
+}

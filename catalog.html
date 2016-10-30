@@ -39,7 +39,7 @@
       <li class="catalog__crumb"><a href="" class="catalog__section-link">Моноподы для селфи</a></li>
     </ul>
   </nav>
-  <div class="catalog__main-content">
+  <div class="catalog__main">
     <div class="filter">
       <div class="filter__title">Фильтр:</div>
       <form action="#">
@@ -63,52 +63,54 @@
         <button type="submit" class="filter__submit">Показать</button>
       </form>
     </div>
-    <div class="sorting">
-      <span class="sorting__title">Сортировка:</span>
-      <ul class="sorting__types">
-        <li class="sorting__type  sorting__type--active">По цене</li>
-        <li class="sorting__type">По типу</li>
-        <li class="sorting__type">По популярности</li>
-      </ul>
-      <ul class="sort__order">
-        <li class="sort__order--up">Up</li>
-        <li class="sort__order--down">Down</li>
-      </ul>
-    </div>
-    <div class="catalog__page">
-      <article class="card">
-        <img class="card__photo" src="img/item-1.jpg" alt="Любительская селфи-палка" width="360"
-             height="380">
-        <h3 class="card__title">Любительская селфи-палка</h3>
-        <span class="card__price">500 руб.</span>
-      </article>
-      <article class="card">
-        <img class="card__photo" src="img/item-2.jpg" alt="Профессиональная селфи-палка" width="360"
-             height="380">
-        <h3 class="card__title">Профессиональная селфи-палка</h3>
-        <span class="card__price">1 500 руб.</span>
-      </article>
-      <article class="card">
-        <img class="card__photo" src="img/item-3.jpg" alt="Непотопляемая селфи-палка" width="360"
-             height="380">
-        <h3 class="card__title">Непотопляемая селфи-палка</h3>
-        <span class="card__price">2 500 руб.</span>
-      </article>
-      <article class="card">
-        <img class="card__photo" src="img/item-4.jpg" alt="Селфи-палка &laquo;Следуй за мной&raquo;"
-             width="360" height="380">
-        <h3 class="card__title">Селфи-палка &laquo;Следуй за мной&raquo;</h3>
-        <span class="card__price">4 900 руб.</span>
-      </article>
-    </div>
-    <div class="pagination">
-      <a href="#prev" class="pagination__page-button  pagination__page-button--prev">Назад</a>
-      <ul class="pagination__page-numbers">
-        <li class="pagination__page-number  pagination__page-number--active">1</li>
-        <li class="pagination__page-number">2</li>
-        <li class="pagination__page-number">3</li>
-      </ul>
-      <a href="#next" class="pagination__page-button  catalog__page-button--next">Вперед</a>
+    <div class="catalog__content">
+      <div class="sorting">
+        <span class="sorting__title">Сортировка:</span>
+        <ul class="sorting__types">
+          <li class="sorting__type  sorting__type--active">По цене</li>
+          <li class="sorting__type">По типу</li>
+          <li class="sorting__type">По популярности</li>
+        </ul>
+        <ul class="sort__orders">
+          <li class="sort__order  sort__order--up">Up</li>
+          <li class="sort__order  sort__order--down">Down</li>
+        </ul>
+      </div>
+      <div class="catalog__page">
+        <article class="card">
+          <img class="card__photo" src="img/item-1.jpg" alt="Любительская селфи-палка" width="360"
+               height="380">
+          <h3 class="card__title">Любительская селфи-палка</h3>
+          <span class="card__price">500 руб.</span>
+        </article>
+        <article class="card">
+          <img class="card__photo" src="img/item-2.jpg" alt="Профессиональная селфи-палка" width="360"
+               height="380">
+          <h3 class="card__title">Профессиональная селфи-палка</h3>
+          <span class="card__price">1 500 руб.</span>
+        </article>
+        <article class="card">
+          <img class="card__photo" src="img/item-3.jpg" alt="Непотопляемая селфи-палка" width="360"
+               height="380">
+          <h3 class="card__title">Непотопляемая селфи-палка</h3>
+          <span class="card__price">2 500 руб.</span>
+        </article>
+        <article class="card">
+          <img class="card__photo" src="img/item-4.jpg" alt="Селфи-палка &laquo;Следуй за мной&raquo;"
+               width="360" height="380">
+          <h3 class="card__title">Селфи-палка &laquo;Следуй за мной&raquo;</h3>
+          <span class="card__price">4 900 руб.</span>
+        </article>
+      </div>
+      <div class="pagination">
+        <a href="#prev" class="pagination__page-button  pagination__page-button--prev">Назад</a>
+        <ul class="pagination__page-numbers">
+          <li class="pagination__page-number  pagination__page-number--active">1</li>
+          <li class="pagination__page-number">2</li>
+          <li class="pagination__page-number">3</li>
+        </ul>
+        <a href="#next" class="pagination__page-button  catalog__page-button--next">Вперед</a>
+      </div>
     </div>
   </div>
 </main>
