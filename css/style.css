@@ -45,6 +45,7 @@ h2 {
 .navigation__item {
   margin-left: 30px;
   display: inline-block;
+  vertical-align: top;
 }
 
 .navigation__login {
@@ -63,6 +64,7 @@ h2 {
 
 .sitemap__item {
   display: inline-block;
+  vertical-align: top;
 }
 
 .sitemap__catalog {
@@ -133,6 +135,7 @@ h2 {
 .catalog__item {
   width: 160px;
   display: inline-block;
+  vertical-align: top;
 
   padding: 0 20px;
 }
@@ -259,6 +262,7 @@ h2 {
 
 .catalog__crumb {
   display: inline-block;
+  vertical-align: top;
 }
 
 .catalog__main::after {
@@ -284,18 +288,22 @@ h2 {
 
 .sorting__types {
   display: inline-block;
+  vertical-align: top;
 }
 
 .sorting__type {
   display: inline-block;
+  vertical-align: top;
 }
 
 .sort__orders {
   display: inline-block;
+  vertical-align: top;
 }
 
 .sort__order {
   display: inline-block;
+  vertical-align: top;
 }
 
 .catalog__page::after {
@@ -314,8 +322,10 @@ h2 {
 
 .pagination__page-numbers {
   display: inline-block;
+  vertical-align: top;
 }
 
 .pagination__page-number {
   display: inline-block;
+  vertical-align: top;
 }
