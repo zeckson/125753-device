@@ -24,6 +24,12 @@ h2 {
   font-family: "Gilroy", serif;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /*Layout element*/
 .navigation__left {
   box-sizing: border-box;
@@ -52,11 +58,6 @@ h2 {
   margin-right: 170px;
 }
 
-.navigation::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .sitemap__list {
   list-style: none;
@@ -86,12 +87,6 @@ h2 {
   float: right;
 }
 
-.sitemap::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .goods {
   padding: 0 80px;
 }
@@ -106,12 +101,6 @@ h2 {
 
 .goods__item--active {
   display: block;
-}
-
-.good::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .good__photo {
@@ -144,12 +133,6 @@ h2 {
   display: block;
 }
 
-.features::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .features__menu {
   width: 320px;
   box-sizing: border-box;
@@ -162,12 +145,6 @@ h2 {
   box-sizing: border-box;
 
   float: right;
-}
-
-.info::after {
-  content: '';
-  display: table;
-  clear: both;
 }
 
 .about {
@@ -184,12 +161,6 @@ h2 {
   float: right;
 }
 
-.footer__upper::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
 .footer__tile {
   width: 200px;
   box-sizing: border-box;
@@ -203,12 +174,6 @@ h2 {
   box-sizing: border-box;
 
   float: right;
-}
-
-.footer__middle::after {
-  content: '';
-  display: table;
-  clear: both;
 }
 
 .address {
@@ -230,12 +195,6 @@ h2 {
   width: 160px;
 
   float: right;
-}
-
-.footer__lower::after {
-  content: '';
-  display: table;
-  clear: both;
 }
 
 .footer__dash {
@@ -263,12 +222,6 @@ h2 {
 .catalog__crumb {
   display: inline-block;
   vertical-align: top;
-}
-
-.catalog__main::after {
-  content: '';
-  display: table;
-  clear: both;
 }
 
 .filter {
@@ -304,12 +257,6 @@ h2 {
 .sort__order {
   display: inline-block;
   vertical-align: top;
-}
-
-.catalog__page::after {
-  content: '';
-  display: table;
-  clear: both;
 }
 
 .card {
