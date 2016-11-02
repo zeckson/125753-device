@@ -1,7 +1,4 @@
 body {
-  width: 1200px;
-  margin: 0 auto;
-
   font-size: 15px;
   line-height: 2;
   color: rgb(70, 70, 70);
@@ -22,6 +19,21 @@ h2 {
   line-height: 1.2;
   color: rgb(0, 0, 0);
   font-family: "Gilroy", serif;
+}
+
+.header {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .clearfix::after {
