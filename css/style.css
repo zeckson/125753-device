@@ -147,6 +147,10 @@ h2 {
   float: right;
 }
 
+.partners a {
+  display: inline-block;
+}
+
 .about {
   width: 520px;
   box-sizing: border-box;
