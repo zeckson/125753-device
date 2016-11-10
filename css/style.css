@@ -57,8 +57,10 @@ h2 {
   text-transform: uppercase;
 
   font-size: 48px;
+  line-height: 48px;
 
-  margin-top: -28px;
+  margin-top: -24px;
+  margin-bottom: 32px;
 }
 
 .header a {
@@ -80,19 +82,52 @@ h2 {
   content: "";
   display: table;
   clear: both;
+  font-size: 0;
 }
 
 /*Layout element*/
+.navigation {
+  padding-bottom: 40px;
+}
+
 .navigation__left {
   box-sizing: border-box;
-  width: 200px;
+  width: 540px;
 
   float: left;
 }
 
+.navigation__left form {
+  display: inline-block;
+}
+
+.navigation__left::before {
+  content: "";
+
+  display: inline-block;
+  vertical-align: top;
+
+  border: 8px solid transparent;
+
+  width: 16px;
+  height: 16px;
+  background: url(../img/icons.png) no-repeat -10px -46px;
+}
+
+.navigation__search {
+  font-size: 15px;
+  line-height: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  opacity: 0.3;
+
+  background-color: transparent;
+  border: none;
+}
+
 .navigation__right {
   box-sizing: border-box;
-  width: 512px;
+  width: 500px;
   float: right;
 }
 
@@ -112,11 +147,65 @@ h2 {
   vertical-align: top;
 
   font-size: 15px;
-  line-height: 30px;
+  line-height: 0;
 }
 
 .navigation__login {
+  float: left;
+  position: relative;
+
+  padding-left: 28px;
+
   margin-right: 170px;
+}
+
+.navigation__login::before {
+  content: "";
+
+  position: absolute;
+  top: -6px;
+  left: -15px;
+
+  width: 13px;
+  height: 12px;
+  background: url(../img/icons.png) no-repeat -159px -78px;
+}
+
+.navigation__basket {
+  float: right;
+
+  position: relative;
+}
+
+.navigation__basket::before {
+  content: "";
+
+  position: absolute;
+  top: -6px;
+  left: -15px;
+
+  width: 12px;
+  height: 12px;
+  background: url(../img/icons.png) no-repeat -42px -10px;
+}
+
+.navigation__compare {
+  float: right;
+  margin-right: 120px;
+
+  position: relative;
+}
+
+.navigation__compare::before {
+  content: "";
+
+  position: absolute;
+  top: -6px;
+  left: -15px;
+
+  width: 10px;
+  height: 10px;
+  background: url(../img/icons.png) no-repeat -104px -10px;
 }
 
 .sitemap__list {
