@@ -39,8 +39,31 @@ h2 {
 }
 
 .header {
-  width: 1200px;
+  box-sizing: border-box;
+  width: 1160px;
   margin: 0 auto;
+
+  border: 0 solid #ffffff;
+  border-top-width: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  color: #000000;
+
+  background-color: #f7e296;
+}
+
+.header__title {
+  text-transform: uppercase;
+
+  font-size: 48px;
+
+  margin-top: -28px;
+}
+
+.header a {
+  color: #000000;
+  text-decoration: none;
 }
 
 .content {
@@ -74,13 +97,22 @@ h2 {
 }
 
 .navigation__items {
+  margin: 0;
+  padding: 0;
+
   list-style: none;
+
+  font-size: 0;
 }
 
 .navigation__item {
   margin-left: 30px;
+
   display: inline-block;
   vertical-align: top;
+
+  font-size: 15px;
+  line-height: 30px;
 }
 
 .navigation__login {
@@ -88,6 +120,9 @@ h2 {
 }
 
 .sitemap__list {
+  margin: 0;
+  padding: 0;
+
   list-style: none;
 }
 
@@ -134,6 +169,9 @@ h2 {
 }
 
 .good__details {
+  margin: 0;
+  padding: 0;
+
   list-style: none;
 }
 
