@@ -1,0 +1,95 @@
+.sprite {
+    background-image: url(../img/icons.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-cart {
+    width: 12px;
+    height: 12px;
+    background-position: -10px -10px;
+}
+
+.sprite-cart-1 {
+    width: 12px;
+    height: 12px;
+    background-position: -42px -10px;
+}
+
+.sprite-compare {
+    width: 10px;
+    height: 10px;
+    background-position: -74px -10px;
+}
+
+.sprite-compare-1 {
+    width: 10px;
+    height: 10px;
+    background-position: -104px -10px;
+}
+
+.sprite-facebook {
+    width: 39px;
+    height: 38px;
+    background-position: -74px -40px;
+}
+
+.sprite-htmlacademy {
+    width: 27px;
+    height: 34px;
+    background-position: -10px -98px;
+}
+
+.sprite-insta {
+    width: 39px;
+    height: 38px;
+    background-position: -57px -98px;
+}
+
+.sprite-modal-close {
+    width: 23px;
+    height: 22px;
+    background-position: -116px -98px;
+}
+
+.sprite-nav-arrow {
+    width: 4px;
+    height: 7px;
+    background-position: -134px -10px;
+}
+
+.sprite-plus {
+    width: 16px;
+    height: 16px;
+    background-position: -158px -10px;
+}
+
+.sprite-search {
+    width: 16px;
+    height: 16px;
+    background-position: -10px -46px;
+}
+
+.sprite-tick {
+    width: 12px;
+    height: 7px;
+    background-position: -133px -46px;
+}
+
+.sprite-twitter {
+    width: 38px;
+    height: 38px;
+    background-position: -116px -140px;
+}
+
+.sprite-user {
+    width: 13px;
+    height: 12px;
+    background-position: -165px -46px;
+}
+
+.sprite-user-1 {
+    width: 13px;
+    height: 12px;
+    background-position: -159px -78px;
+}
