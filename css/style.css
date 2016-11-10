@@ -41,6 +41,7 @@ h2 {
 .header {
   box-sizing: border-box;
   width: 1160px;
+  min-height: 300px;
   margin: 0 auto;
 
   border: 0 solid #ffffff;
@@ -208,6 +209,16 @@ h2 {
   background: url(../img/icons.png) no-repeat -104px -10px;
 }
 
+.sitemap {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+  color: rgb(0, 0, 0);
+  font-family: "Gilroy", serif;
+
+  text-transform: uppercase;
+}
+
 .sitemap__list {
   margin: 0;
   padding: 0;
@@ -221,8 +232,21 @@ h2 {
 }
 
 .sitemap__catalog {
+  position: relative;
+
   width: 256px;
   float: left;
+}
+
+.sitemap__catalog::after {
+  content: "";
+
+  position: absolute;
+  right: 40px;
+
+  width: 16px;
+  height: 16px;
+  background: url(../img/icons.png) no-repeat -158px -10px;
 }
 
 .sitemap__contacts {
