@@ -142,57 +142,38 @@ h2 {
 }
 
 .navigation__item {
-  margin-left: 30px;
-
   display: inline-block;
   vertical-align: top;
 
   font-size: 15px;
-  line-height: 0;
+  line-height: 15px;
 }
 
 .navigation__login {
-  float: left;
   position: relative;
 
-  padding-left: 28px;
+  box-sizing: border-box;
+  width: 280px;
 
-  margin-right: 170px;
+  padding-left: 27px;
 }
 
 .navigation__login::before {
   content: "";
 
   position: absolute;
-  top: -6px;
-  left: -15px;
+  left: 0;
 
   width: 13px;
   height: 12px;
   background: url(../img/icons.png) no-repeat -159px -78px;
 }
 
-.navigation__basket {
-  float: right;
-
-  position: relative;
-}
-
-.navigation__basket::before {
-  content: "";
-
-  position: absolute;
-  top: -6px;
-  left: -15px;
-
-  width: 12px;
-  height: 12px;
-  background: url(../img/icons.png) no-repeat -42px -10px;
-}
-
 .navigation__compare {
-  float: right;
-  margin-right: 120px;
+  box-sizing: border-box;
+  width: 100px;
+
+  padding-left: 20px;
 
   position: relative;
 }
@@ -201,13 +182,34 @@ h2 {
   content: "";
 
   position: absolute;
-  top: -6px;
-  left: -15px;
+  left: 0;
+  top: 2px;
 
   width: 10px;
   height: 10px;
   background: url(../img/icons.png) no-repeat -104px -10px;
 }
+
+.navigation__basket {
+  box-sizing: border-box;
+  width: 120px;
+
+  padding-left: 40px;
+  position: relative;
+}
+
+.navigation__basket::before {
+  content: "";
+
+  position: absolute;
+  top: 2px;
+  left: 15px;
+
+  width: 12px;
+  height: 12px;
+  background: url(../img/icons.png) no-repeat -42px -10px;
+}
+
 
 .sitemap {
   font-size: 18px;
