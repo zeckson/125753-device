@@ -1,5 +1,62 @@
-body {
+/*body {*/
   background-image: url("../img/back.jpg");
   background-repeat: no-repeat ;
   background-position: top center;
+}
+header{
+  height: 150px;
+}
+.navigation{
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+.about {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.gallery{
+  display: flex;
+  justify-content: space-between;
+}
+.tovar-menu{
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.usloviya{
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-sponsor{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.about{
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-menu{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-navigation{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-links{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-contacts{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;cdcd
 }

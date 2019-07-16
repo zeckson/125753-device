@@ -4,136 +4,134 @@
   <meta charset="utf-8">
   <title>HTML Academy: Девайс</title>
   <link href="css/css.css" rel="stylesheet">
-  <link href="css/blocks.css" rel="stylesheet">
+  <!--<link href="css/blocks.css" rel="stylesheet">-->
 </head>
 <body>
 <header class="header">
   <h1>DEVICE</h1>
-  <nav class="navigation">
-    <ul>
-      <li><a href="h1search">поиск по сайту</a></li>
-      <li><a href="h1enter">войти</a></li>
-      <li><a href="h1sravnit">сравнить</a></li>
-      <li><a href="bsket">корзина</a></li>
-    </ul>
-  </nav>
-  <nav class="about">
-    <ul>
-      <li> <a href="" class="h2">каталог товаров</a></li>
-      <li> <a href="" class="h2">доставка</a></li>
-      <li> <a href="" class="h2">гарантия</a></li>
-      <li> <a href="" class="h2">контакты</a></li>
-    </ul>
-  </nav>
+  <ul class="navigation">
+    <li><a href="h1search">поиск по сайту</a></li>
+    <li><a href="h1enter">войти</a></li>
+    <li><a href="h1sravnit">сравнить</a></li>
+    <li><a href="bsket">корзина</a></li>
+  </ul>
+  <ul class="about">
+    <li><a href="" class="h2">каталог товаров</a></li>
+    <li><a href="" class="h2">доставка</a></li>
+    <li><a href="" class="h2">гарантия</a></li>
+    <li><a href="" class="h2">контакты</a></li>
+  </ul>
 </header>
 <main class="main">
-<div class="gallery">
   <ul>
-    <li>
-      <h2>01</h2>
-      <img src="http://placehold.it/150x100">
-      <h1>Дедлай селфи как бен сттилер</h1>
-      <p>Самая длинная палка в мире, доступна в нашем магазине.
-        <br>Восемь (Восемь Карл!)метров длиной и весом всего 5 кг.</p>
+    <li class="gallery">
+      <div>
+        <img src="http://placehold.it/384x486" alt="палки" width="384" height="486">
+      </div>
+      <div>
+        <h2>01</h2>
+        <h2>Дедлай селфи как бен сттилер</h2>
+        <p>Самая длинная палка в мире, доступна в нашем магазине.
+          <br>Восемь (Восемь Карл!)метров длиной и весом всего 5 кг.</p>
+        <button>Подробнее</button>
+        <table>
+          <tr>
+            <td>8.5 м</td>
+            <td>5 кг</td>
+            <td>Карбон</td>
+          </tr>
+          <tr>
+            <td>Длина палки</td>
+            <td>Вес палки</td>
+            <td>Материал</td>
+          </tr>
+        </table>
+      </div>
     </li>
-    <button>Подробнее</button>
-    <table>
-      <tr>
-        <td>8.5 м</td>
-        <td>5 кг</td>
-        <td>Карбон</td>
-      </tr>
-      <tr>
-        <td>Длина палки</td>
-        <td>Вес палки</td>
-        <td>Материал</td>
-      </tr>
-    </table>
   </ul>
-</div>
-<div class="assortiment">
-  <ul>
-    <li><a href=""><img src="http://placehold.it/150x100">Виртуальная реальность</a></li>
-    <li><a href=""><img src="http://placehold.it/150x100">Моноподы для селфи</a> </li>
-    <li><a href=""><img src="http://placehold.it/150x100">Экшн камеры</a> </li>
-    <li><a href=""><img src="http://placehold.it/150x100">Фитнес браслеты</a></li>
-    <li><a href=""><img src="http://placehold.it/150x100">Умные часы</a></li>
-    <li><a href=""><img src="http://placehold.it/150x100">Квадракоптеры</a></li>
+  <ul class="tovar-menu">
+    <li><a href=""><img src="http://placehold.it/150x100">
+      <p>Виртуальная реальность</p></a></li>
+    <li><a href=""><img src="http://placehold.it/150x100">
+      <p>Моноподы для селфи</p></a></li>
+    <li><a href=""><img src="http://placehold.it/150x100">
+      <p>Экшн камеры</p></a></li>
+    <li><a href=""><img src="http://placehold.it/150x100">
+      <p>Фитнес браслеты</p></a></li>
+    <li><a href=""><img src="http://placehold.it/150x100">
+      <p>Умные часы</p></a></li>
+    <li><a href=""><img src="http://placehold.it/150x100">
+      <p>Квадракоптеры</p></a></li>
   </ul>
-</div>
-<div class="usloviya">
-  <ul>
-    <li><button class="udostavka">дотсавка</button></li>
-    <li><button class="ugarantiya">гарантия</button></li>
-    <li><button class="ukredit">кредит</button></li>
-  </ul>
-  <ul>
-    <li>
+  <div class="usloviya">
+    <ul>
+      <li>
+        <button class="udostavka">дотсавка</button>
+      </li>
+      <li>
+        <button class="ugarantiya">гарантия</button>
+      </li>
+      <li>
+        <button class="ukredit">кредит</button>
+      </li>
+    </ul>
+    <div>
       <h2>Доставка</h2>
       <p>Мы с удовольствием доставим ваш товар прямо к вашему<br>
-      подьезду, совершенно бесплатно! Ведь мы неплохо<br>
-      заработаем, поднимая его на ваш этаж.</p>
+          подьезду, совершенно бесплатно! Ведь мы неплохо<br>
+          заработаем, поднимая его на ваш этаж.</p>
       <img src="http://placehold.it/150x100" alt="доставка">
-    </li>
-  </ul>
-</div>
-<div class="logo-sponsor">
-  <ul>
-    <li><img src="http://placehold.it/150x100" alt="dji"></li>
-    <li><img src="http://placehold.it/150x100" alt="spgadjets"></li>
-    <li><img src="http://placehold.it/150x100" alt="gopro"></li>
-    <li><img src="http://placehold.it/150x100" alt="vive"></li>
-  </ul>
-</div>
-<div class="about">
-  <h2>О нас</h2>
-  <p>Огромный выбор гаджетов не останет равнодушных гика,<br>
-  который есть в каждом из нас</p>
-  <p>Мы можем доставить ваш товар в самые отдаленные точки<br>
-  России! DEVICE работает со многоими транспортными компаниями</p>
-  <ul>
-    <li>Деловые линии</li>
-    <li>вторейдинг</li>
-    <li>желдорэкспедиция</li>
-  </ul>
-  <button>подробнее о нас</button>
-</div>
-<div class="kontakti">
-  <h2>контакты</h2>
-  <p>вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможите<br>проверить работоспособность покупки. Всякое бывает.</p>
-  <a href=""><img src="http://placehold.it/150x100" alt="maps"></a>
-  <button>напишите нам</button>
-</div>
+    </div>
+  </div>
+<ul class="logo-sponsor">
+  <li><img src="http://placehold.it/150x100" alt="dji"></li>
+  <li><img src="http://placehold.it/150x100" alt="spgadjets"></li>
+  <li><img src="http://placehold.it/150x100" alt="gopro"></li>
+  <li><img src="http://placehold.it/150x100" alt="vive"></li>
+</ul>
+  <div class="about">
+    <div class="for-me">
+      <h2>О нас</h2>
+      <p>Огромный выбор гаджетов не останет равнодушных гика,<br>
+      который есть в каждом из нас</p>
+      <p>Мы можем доставить ваш товар в самые отдаленные точки<br>
+      России! DEVICE работает со многоими транспортными компаниями</p>
+      <ul>
+        <li><a href="">Деловые линии</a></li>
+        <li><a href="">вторейдинг</a></li>
+        <li><a href="">желдорэкспедиция</a></li>
+      </ul>
+      <button>подробнее о нас</button>
+    </div>
+    <div class="kontakti">
+      <h2>контакты</h2>
+      <p>вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможите<br>проверить работоспособность покупки.
+        Всякое бывает.</p>
+      <a href=""><img src="http://placehold.it/150x100" alt="maps"></a>
+      <button>напишите нам</button>
+  </div>
 </main>
 <footer class="footer">
   <h1>device</h1>
-  <div class="footer-menu">
-    <ul>
-      <li><a href="enter">войти</a></li>
-      <li><a href="compare">сравнить</a></li>
-      <li><a href="basket">корзина</a></li>
-    </ul>
-  </div>
-  <div class="footer-navigation">
-    <ul>
-      <li><a href="доставка">доставка</a></li>
-      <li><a href="гарантия">гарантия</a></li>
-      <li><a href="контакты">контакты</a></li>
-    </ul>
-  </div>
-  <div class="footer-links">
-    <ul>
-      <li><a href="фэйсбук"><img src="http://placehold.it/150x100"></a></li>
-      <li><a href="инста"><img src="http://placehold.it/150x100"></a></li>
-      <li><a href="твит"><img src="http://placehold.it/150x100"></a></li>
-    </ul>
-  </div>
-  <div class="footer-contacts">
-    <ul>
-      <li>г.Москва, ул.Строителей,15</li>
-      <li>Тел.+7(495)495-95-95</li>
-    </ul>
-  </div>
+  <ul class="footer-menu">
+    <li><a href="enter">войти</a></li>
+    <li><a href="compare">сравнить</a></li>
+    <li><a href="basket">корзина</a></li>
+  </ul>
+  <ul class="footer-navigation">
+    <li><a href="доставка">доставка</a></li>
+    <li><a href="гарантия">гарантия</a></li>
+    <li><a href="контакты">контакты</a></li>
+  </ul>
+  <ul class="footer-links">
+    <li><a href="фэйсбук"><img src="http://placehold.it/150x100"></a></li>
+    <li><a href="инста"><img src="http://placehold.it/150x100"></a></li>
+    <li><a href="твит"><img src="http://placehold.it/150x100"></a></li>
+  </ul>
+  <ul class="footer-contacts">
+    <li>г.Москва, ул.Строителей,15</li>
+    <li>Тел.+7(495)495-95-95</li>
+  </ul>
   <img src="http://placehold.it/150x100" alt="academlogo">
 </footer>
 </body>
