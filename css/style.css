@@ -1,62 +1,74 @@
-/*body {*/
+/*body {
   background-image: url("../img/back.jpg");
   background-repeat: no-repeat ;
   background-position: top center;
-}
-header{
+}*/
+header {
   height: 150px;
 }
-.navigation{
+
+.navigation {
   height: 55px;
   display: flex;
   justify-content: space-between;
 }
+
 .about {
   height: 60px;
   display: flex;
   justify-content: space-between;
 }
-.gallery{
+
+.gallery {
   display: flex;
   justify-content: space-between;
 }
-.tovar-menu{
+
+.tovar-menu {
   height: 200px;
   display: flex;
   justify-content: space-between;
 }
-.usloviya{
+
+.usloviya {
   height: 300px;
   display: flex;
   justify-content: space-between;
 }
-.logo-sponsor{
+
+.logo-sponsor {
   height: 100px;
   display: flex;
   justify-content: space-between;
 }
-.about{
+
+.about {
   height: 200px;
   display: flex;
   justify-content: space-between;
 }
-.footer-menu{
+
+.footer-menu {
   height: 100px;
   display: flex;
   justify-content: space-between;
 }
-.footer-navigation{
+
+.footer-navigation {
   height: 100px;
   display: flex;
   justify-content: space-between;
 }
-.footer-links{
+
+.footer-links {
   height: 100px;
   display: flex;
   justify-content: space-between;
 }
-.footer-contacts{
+
+.footer-contacts {
   height: 100px;
   display: flex;
-  justify-content: space-between;cdcd
+  justify-content: space-between;
+
 }
