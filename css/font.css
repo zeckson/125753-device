@@ -13,8 +13,21 @@ body{
 }
 h1{
   font-family: "gilroy extra bold", sans-serif;
+  font-size: 48px;
+  color: #000000;
+  text-transform: uppercase;
+}
+h2{
+  font-family: "gilroy extra bold", sans-serif;
   font-size: 47px;
   color: #000000;
 }
 
+h3{
+  font-family: "gilroy extra bold", sans-serif;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
 
