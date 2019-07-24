@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Девайс</title>
-  <link href="css/style.css" rel="stylesheet">
+  <!--<link href="css/style.css" rel="stylesheet">-->
+  <link href="css/font.css" rel="stylesheet">
 </head>
 <body>
 <header class="header">
@@ -15,10 +16,10 @@
       <li><a href=""><img src="img/decor/bcart.png" width="12" height="12" alt="cart">корзина</a></li>
     </ul>
     <ul class="navigation">
-      <li><a href="" class="h2">каталог товаров</a></li>
-      <li><a href="" class="h2">доставка</a></li>
-      <li><a href="" class="h2">гарантия</a></li>
-      <li><a href="" class="h2">контакты</a></li>
+      <li><a href="" class="header-catalog"><h3>каталог товаров</h3></a></li>
+      <li><a href="" class="header-delivery"><h3>доставка</h3></a></li>
+      <li><a href="" class="header-garant"><h3>гарантия</h3></a></li>
+      <li><a href="" class="header-contact"><h3>контакты</h3></a></li>
     </ul>
 </header>
 <main>
@@ -31,7 +32,7 @@
     </ul>
   </div>
   <div class="change">
-    <h2>сортировка</h2>
+    <h4>сортировка</h4>
     <ul>
       <li>
         <button class="cprice">по цене</button>
@@ -52,34 +53,34 @@
   </div>
   <div class="gallery">
     <ul>
-      <li><img src="img/content/prof-user.png" width="360" height="380" alt="prof-user"><h4>Профессиональная селфи палка</h4>
+      <li><img src="img/content/prof-user.png" width="360" height="380" alt="prof-user"><h3>Профессиональная селфи палка</h3>
         <p>1 500р</p></li>
-      <li><img src="img/content/nub-user.png" width="360" height="380" alt="nub-user"><h4>юбительская селфи палка</h4>
+      <li><img src="img/content/nub-user.png" width="360" height="380" alt="nub-user"><h3>юбительская селфи палка</h3>
         <p>500р</p></li>
-      <li><img src="img/content/folow-me.png" width="360" height="380" alt="folow-me"><h4>следуй за мной селфи палка</h4>
+      <li><img src="img/content/folow-me.png" width="360" height="380" alt="folow-me"><h3>следуй за мной селфи палка</h3>
         <p>2500р</p></li>
-      <li><img src="img/content/no-rain.png" width="360" height="380" alt="no-rain"><h4>непотопляемая селфи палка</h4>
+      <li><img src="img/content/no-rain.png" width="360" height="380" alt="no-rain"><h3>непотопляемая селфи палка</h3>
         <p>4900р</p></li>
     </ul>
   </div>
   <div class="pager">
-    <button class="gbuttonnazad">Назад</button>
+    <button class="gbuttonnazad"><h4>Назад</h4></button>
     <ul>
       <li>1</li>
       <li>2</li>
       <li>3</li>
     </ul>
-    <button class="gbuttonnvpered">Вперед</button>
+    <button class="gbuttonnvpered"><h4>Вперед</h4></button>
   </div>
   <div class="filtr">
     <h4>Фильтр</h4>
     <form>
-      <h4>стоимость</h4>
+      <h3>стоимость</h3>
       <button class="ot">от</button>
       <button class="do">до</button>
     </form>
     <form>
-      <h4>Цвет</h4>
+      <h3>Цвет</h3>
       <input id="black" type="checkbox"><label for="black">Черный</label>
       <input id="white" type="checkbox"><label for="white">Белый</label>
       <input id="blue" type="checkbox"><label for="blue">Синий</label>
@@ -87,11 +88,11 @@
       <input id="pink" type="checkbox"><label for="pink">Розовый</label>
     </form>
     <form>
-      <h4>Bluetooth</h4>
+      <h3>Bluetooth</h3>
       <input id="yes" type="radio"><label for="yes">Есть</label>
       <input id="no" type="radio"><label for="no">Нет</label>
     </form>
-    <button class="show">Показать</button>
+    <button class="show"><h3>Показать</h3></button>
   </div>
 </main>
 <footer class="footer">

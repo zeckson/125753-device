@@ -32,3 +32,8 @@ h3 {
   text-transform: uppercase;
 }
 
+h4{
+  font-family: "gilroy extra bold", sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
