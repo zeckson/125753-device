@@ -3,27 +3,28 @@
   src: url(../fonts/gilroy-extrabold.woff2);
 }
 
-body{
+body {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 15px;
   color: #464646;
   line-height: 30px;
   font-weight: 200;
-
 }
-h1{
+
+h1 {
   font-family: "gilroy extra bold", sans-serif;
   font-size: 48px;
   color: #000000;
   text-transform: uppercase;
 }
-h2{
+
+h2 {
   font-family: "gilroy extra bold", sans-serif;
   font-size: 47px;
   color: #000000;
 }
 
-h3{
+h3 {
   font-family: "gilroy extra bold", sans-serif;
   font-size: 18px;
   color: #000000;
