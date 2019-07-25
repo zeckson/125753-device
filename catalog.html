@@ -3,105 +3,104 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Девайс</title>
+  <link href="css/font.css" rel="stylesheet">
 </head>
 <body>
 <header class="header">
   <h1>DEVICE</h1>
-  <div class="navigation">
-    <ul>
-      <li><a href="">поиск товаров</a></li>
-      <li><a href="">выйти</a></li>
-      <li><a href="">сравнить</a></li>
-      <li><a href="">корзина</a></li>
+    <ul class="menu">
+      <li><a href=""><img src="img/decor/bsearch.png" width="16" height="16" alt="search">поиск товаров</a></li>
+      <li><a href=""><img src="img/decor/buser.png" width="13" height="12" alt="user">выйти</a></li>
+      <li><a href=""><img src="img/decor/bcompare.png" width="10" height="10" alt="compare">сравнить</a></li>
+      <li><a href=""><img src="img/decor/bcart.png" width="12" height="12" alt="cart">корзина</a></li>
     </ul>
-  </div>
-  <div class="about">
-    <ul>
-      <li><a href="" class="h2">каталог товаров</a></li>
-      <li><a href="" class="h2">доставка</a></li>
-      <li><a href="" class="h2">гарантия</a></li>
-      <li><a href="" class="h2">контакты</a></li>
+    <ul class="navigation">
+      <li><a href="" class="header-catalog"><h3>каталог товаров</h3></a></li>
+      <li><a href="" class="header-delivery"><h3>доставка</h3></a></li>
+      <li><a href="" class="header-garant"><h3>гарантия</h3></a></li>
+      <li><a href="" class="header-contact"><h3>контакты</h3></a></li>
     </ul>
-  </div>
 </header>
-<div>
-  <h2>Моноподы для селфи</h2>
-  <ul>
-    <li><a href="">главная</a></li>
-    <li><a href="">каталог товаров</a></li>
-    <li><a href="">моноподы для селфи</a></li>
-  </ul>
-</div>
-<div class="change">
-  <h2>сортировка</h2>
-  <ul>
-    <li>
-      <button class="cprice">по цене</button>
-    </li>
-    <li>
-      <button class="ctip">по типу</button>
-    </li>
-    <li>
-      <button class="cpopular">по популярности</button>
-    </li>
-    <li>
-      <button class="up">наверх</button>
-    </li>
-    <li>
-      <button class="down">вниз</button>
-    </li>
-  </ul>
-</div>
-<div class="gallery">
-  <ul>
-    <li><img src="http://placehold.it/150x100"><h4>Профессиональная селфи палка</h4>
-      <p>1 500р</p></li>
-    <li><img src="http://placehold.it/150x100"><h4>юбительская селфи палка</h4>
-      <p>500р</p></li>
-    <li><img src="http://placehold.it/150x100"><h4>следуй за мной селфи палка</h4>
-      <p>2500р</p></li>
-    <li><img src="http://placehold.it/150x100"><h4>непотопляемая селфи палка</h4>
-      <p>4900р</p></li>
-  </ul>
-</div>
-<div class="pager">
-  <button class="gbuttonnazad">Назад</button>
-  <ul>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-  </ul>
-  <button class="gbuttonnvpered">Вперед</button>
-</div>
-<div class="filtr">
-  <h4>Фильтр</h4>
-  <form>
-    <h4>стоимость</h4>
-    <button class="ot">от</button>
-    <button class="do">до</button>
-  </form>
-  <form>
-    <h4>Цвет</h4>
-    <input id="black" type="checkbox"><label for="black">Черный</label>
-    <input id="white" type="checkbox"><label for="white">Белый</label>
-    <input id="blue" type="checkbox"><label for="blue">Синий</label>
-    <input id="red" type="checkbox"><label for="red">Красный</label>
-    <input id="pink" type="checkbox"><label for="pink">Розовый</label>
-  </form>
-  <form>
-    <h4>Bluetooth</h4>
-    <input id="yes" type="radio"><label for="yes">Есть</label>
-    <input id="no" type="radio"><label for="no">Нет</label>
-  </form>
-  <button class="show">Показать</button>
-</div>
+<main>
+  <div class="menu-navigation">
+    <h2>Моноподы для селфи</h2>
+    <ul>
+      <li><a href="">главная</a></li>
+      <li><a href="">каталог товаров</a></li>
+      <li><a href="">моноподы для селфи</a></li>
+    </ul>
+  </div>
+  <div class="change">
+    <h4>сортировка</h4>
+    <ul>
+      <li>
+        <button class="cprice">по цене</button>
+      </li>
+      <li>
+        <button class="ctip">по типу</button>
+      </li>
+      <li>
+        <button class="cpopular">по популярности</button>
+      </li>
+      <li>
+        <button class="up">наверх</button>
+      </li>
+      <li>
+        <button class="down">вниз</button>
+      </li>
+    </ul>
+  </div>
+  <div class="gallery">
+    <ul>
+      <li><img src="img/content/prof-user.png" width="360" height="380" alt="prof-user"><h3>Профессиональная селфи палка</h3>
+        <p>1 500р</p></li>
+      <li><img src="img/content/nub-user.png" width="360" height="380" alt="nub-user"><h3>юбительская селфи палка</h3>
+        <p>500р</p></li>
+      <li><img src="img/content/folow-me.png" width="360" height="380" alt="folow-me"><h3>следуй за мной селфи палка</h3>
+        <p>2500р</p></li>
+      <li><img src="img/content/no-rain.png" width="360" height="380" alt="no-rain"><h3>непотопляемая селфи палка</h3>
+        <p>4900р</p></li>
+    </ul>
+  </div>
+  <div class="pager">
+    <button class="gbuttonnazad"><h4>Назад</h4></button>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+    <button class="gbuttonnvpered"><h4>Вперед</h4></button>
+  </div>
+  <div class="filtr">
+    <h4>Фильтр</h4>
+    <form>
+      <h3>стоимость</h3>
+      <button class="ot">от</button>
+      <button class="do">до</button>
+    </form>
+    <form>
+      <h3>Цвет</h3>
+      <input id="black" type="checkbox"><label for="black">Черный</label>
+      <input id="white" type="checkbox"><label for="white">Белый</label>
+      <input id="blue" type="checkbox"><label for="blue">Синий</label>
+      <input id="red" type="checkbox"><label for="red">Красный</label>
+      <input id="pink" type="checkbox"><label for="pink">Розовый</label>
+    </form>
+    <form>
+      <h3>Bluetooth</h3>
+      <input id="yes" type="radio"><label for="yes">Есть</label>
+      <input id="no" type="radio"><label for="no">Нет</label>
+    </form>
+    <button class="show"><h3>Показать</h3></button>
+  </div>
+</main>
 <footer class="footer">
   <h1>device</h1>
   <div class="footer-menu">
     <ul>
-      <li><a href="exit">выйти</a></li>
-      <li><a href="compare">сравнить</a></li>
-      <li><a href="basket">корзина</a></li>
+      <li><a href="exit"><img src="img/decor/user.png" width="13" height="12" alt="user">выйти</a></li>
+      <li><a href="compare"><img src="img/decor/compare.png" width="10" height="10" alt="compare">сравнить</a></li>
+      <li><a href="basket"><img src="img/decor/cart.png" width="12" height="12" alt="cart">корзина</a></li>
     </ul>
   </div>
   <div class="footer-navigation">
@@ -113,9 +112,9 @@
   </div>
   <div class="footer-links">
     <ul>
-      <li><a href="фэйсбук"><img src="http://placehold.it/150x100"></a></li>
-      <li><a href="инста"><img src="http://placehold.it/150x100"></a></li>
-      <li><a href="твит"><img src="http://placehold.it/150x100"></a></li>
+      <li><a href="фэйсбук"><img src="img/decor/facebook.png" width="32" height="32" alt="facebook"></a></li>
+      <li><a href="инста"><img src="img/decor/inst.png" width="32" height="32" alt="inst"></a></li>
+      <li><a href="твит"><img src="img/decor/twitter.png" width="32" height="32" alt="twitter"></a></li>
     </ul>
   </div>
   <div class="footer-contacts">
@@ -124,7 +123,7 @@
       <li>Тел.+7(495)495-95-95</li>
     </ul>
   </div>
-  <img src="http://placehold.it/150x100" alt="academlogo">
+  <img src="img/content/logo-html.png" alt="academlogo" width="27" height="35">
 </footer>
 </body>
 </html>
