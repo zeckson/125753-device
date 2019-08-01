@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Девайс</title>
+  <link href="css/style.css" rel="stylesheet">
   <link href="css/font.css" rel="stylesheet">
+  <!--<link href="css/blocks.css" rel="stylesheet">-->
 </head>
 <body>
 <header class="header">
@@ -22,12 +24,12 @@
   </ul>
 </header>
 <main class="main">
-  <ul>
-    <li class="gallery">
-      <div>
+  <div class="gallery-container">
+  <ul class="gallery">
+    <li>
         <img src="img/content/palka.png" width="384" height="486" alt="palki">
-      </div>
-      <div>
+    </li>
+    <li>
         <h2>01</h2>
         <h2>Дедлай селфи как бен сттилер</h2>
         <p>Самая длинная палка в мире, доступна в нашем магазине.
@@ -45,9 +47,9 @@
             <td>Материал</td>
           </tr>
         </table>
-      </div>
     </li>
   </ul>
+  </div>
   <ul class="tovar-menu">
     <li><a href=""><img src="img/background/vr_glasses.png" width="97" height="55" alt="vr-glasses">
       <h3>Виртуальная реальность</h3></a></li>
@@ -62,7 +64,7 @@
     <li><a href=""><img src="img/background/kvadrik.png" width="132" height="69" alt="kvadrik">
       <h3>Квадракоптеры</h3></a></li>
   </ul>
-  <div class="usloviya">
+  <div class="condition">
     <ul>
       <li>
         <button class="udostavka">дотсавка</button>

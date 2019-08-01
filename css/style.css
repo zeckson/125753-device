@@ -1,0 +1,96 @@
+body {
+  width: 100%;
+  background: url("../img/device-index.jpg") no-repeat top, center;
+  margin: 0;
+}
+
+.header {
+  box-sizing: border-box;
+  width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  padding-left: 60px;
+  padding-right: 60px;
+  flex-direction: column;
+}
+
+.header h1 {
+  margin-top: 23px;
+  letter-spacing: 0.001em;
+}
+
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu li {
+  width: 100%;
+}
+
+.navigation {
+
+  height: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+.main{
+  margin: 0 auto;
+  width: 1160px;
+}
+.gallery {
+  height: 508px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tovar-menu {
+  height: 288px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.condition {
+  height: 342px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-sponsor {
+  height: 107px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  height: 592px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer{
+  margin: 0 auto;
+  width: 1160px;
+}
+.footer-menu {
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-navigation {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contacts {
+  display: flex;
+  justify-content: space-between;
+}
