@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  background: url("../img/device-index.jpg") no-repeat top, center;
+  /*background: url("../img/device-index.jpg") no-repeat top, center;*/
   margin: 0;
 }
 
@@ -40,52 +40,62 @@ body {
   width: 1160px;
 }
 .gallery {
-  height: 508px;
   display: flex;
   justify-content: space-between;
 }
 
 .tovar-menu {
-  height: 288px;
   display: flex;
   justify-content: space-between;
 }
 
 .condition {
-  height: 342px;
   display: flex;
   justify-content: space-between;
 }
 
 .logo-sponsor {
-  height: 107px;
   display: flex;
   justify-content: space-between;
 }
 
 .about {
-  height: 592px;
   display: flex;
   justify-content: space-between;
 }
+.breadcrumbs{
+  display: flex;
+  justify-content: space-between;
+}
+.sorting{
+  display: flex;
+  justify-content: space-between;
+}
+.gallery-foto{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.pager{
+  display: flex;
+  flex-direction: column;
+}
+
+
 .footer{
   margin: 0 auto;
-  width: 1160px;
 }
 .footer-menu {
-  height: 36px;
   display: flex;
   justify-content: space-between;
 }
 
 .footer-navigation {
-  height: 55px;
   display: flex;
   justify-content: space-between;
 }
 
 .footer-links {
-  height: 55px;
   display: flex;
   justify-content: space-between;
 }
