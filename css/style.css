@@ -19,7 +19,6 @@ body {
   letter-spacing: 0.001em;
 }
 
-
 .menu {
   display: flex;
   justify-content: space-between;
@@ -35,10 +34,12 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.main{
+
+.main {
   margin: 0 auto;
   width: 1160px;
 }
+
 .gallery {
   display: flex;
   justify-content: space-between;
@@ -63,28 +64,37 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.breadcrumbs{
+
+.breadcrumbs {
   display: flex;
   justify-content: space-between;
 }
-.sorting{
+
+.sorting {
   display: flex;
   justify-content: space-between;
 }
-.gallery-foto{
+
+.gallery-foto {
+  width: 833px;
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
 }
-.pager{
+
+.filtr {
+  width: 468px;
+}
+
+.pager {
   display: flex;
   flex-direction: column;
 }
 
-
-.footer{
+.footer {
   margin: 0 auto;
 }
+
 .footer-menu {
   display: flex;
   justify-content: space-between;
