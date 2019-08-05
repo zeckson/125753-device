@@ -45,9 +45,11 @@ body {
   margin: 0 auto;
   width: 1160px;
 }
-.menu-navigation{
+
+.menu-navigation {
   padding-left: 60px;
 }
+
 .catalog {
   display: flex;
   justify-content: space-between;
