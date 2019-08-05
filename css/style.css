@@ -83,11 +83,16 @@ body {
   width: 833px;
   display: flex;
   align-items: flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .filtr {
   width: 468px;
+}
+.filtr-color{
+  display: flex;
+  flex-direction: column;
 }
 
 .pager {
