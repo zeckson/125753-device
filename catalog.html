@@ -4,125 +4,126 @@
   <meta charset="utf-8">
   <title>HTML Academy: Девайс</title>
   <link href="css/font.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 <header class="header">
   <h1>DEVICE</h1>
-    <ul class="menu">
-      <li><a href=""><img src="img/decor/bsearch.png" width="16" height="16" alt="search">поиск товаров</a></li>
-      <li><a href=""><img src="img/decor/buser.png" width="13" height="12" alt="user">выйти</a></li>
-      <li><a href=""><img src="img/decor/bcompare.png" width="10" height="10" alt="compare">сравнить</a></li>
-      <li><a href=""><img src="img/decor/bcart.png" width="12" height="12" alt="cart">корзина</a></li>
-    </ul>
-    <ul class="navigation">
-      <li><a href="" class="header-catalog"><h3>каталог товаров</h3></a></li>
-      <li><a href="" class="header-delivery"><h3>доставка</h3></a></li>
-      <li><a href="" class="header-garant"><h3>гарантия</h3></a></li>
-      <li><a href="" class="header-contact"><h3>контакты</h3></a></li>
-    </ul>
+  <ul class="menu">
+    <li><a href=""><img src="img/decor/bsearch.png" width="16" height="16" alt="search">поиск товаров</a></li>
+    <li class="menu-user"><a href=""><img src="img/decor/buser.png" width="13" height="12" alt="user">выйти</a></li>
+    <li><a href=""><img src="img/decor/bcompare.png" width="10" height="10" alt="compare">сравнить</a></li>
+    <li><a href=""><img src="img/decor/bcart.png" width="12" height="12" alt="cart">корзина</a></li>
+  </ul>
+  <ul class="navigation">
+    <li><a href="" class="header-catalog"><h3>каталог товаров</h3></a></li>
+    <li><a href="" class="header-delivery"><h3>доставка</h3></a></li>
+    <li><a href="" class="header-garant"><h3>гарантия</h3></a></li>
+    <li><a href="" class="header-contact"><h3>контакты</h3></a></li>
+  </ul>
 </header>
-<main>
+<main class="main">
   <div class="menu-navigation">
     <h2>Моноподы для селфи</h2>
-    <ul>
+    <ul class="breadcrumbs">
       <li><a href="">главная</a></li>
       <li><a href="">каталог товаров</a></li>
       <li><a href="">моноподы для селфи</a></li>
     </ul>
   </div>
-  <div class="change">
-    <h4>сортировка</h4>
-    <ul>
-      <li>
-        <button class="cprice">по цене</button>
-      </li>
-      <li>
-        <button class="ctip">по типу</button>
-      </li>
-      <li>
-        <button class="cpopular">по популярности</button>
-      </li>
-      <li>
-        <button class="up">наверх</button>
-      </li>
-      <li>
-        <button class="down">вниз</button>
-      </li>
-    </ul>
-  </div>
-  <div class="gallery">
-    <ul>
-      <li><img src="img/content/prof-user.png" width="360" height="380" alt="prof-user"><h3>Профессиональная селфи палка</h3>
-        <p>1 500р</p></li>
-      <li><img src="img/content/nub-user.png" width="360" height="380" alt="nub-user"><h3>юбительская селфи палка</h3>
-        <p>500р</p></li>
-      <li><img src="img/content/folow-me.png" width="360" height="380" alt="folow-me"><h3>следуй за мной селфи палка</h3>
-        <p>2500р</p></li>
-      <li><img src="img/content/no-rain.png" width="360" height="380" alt="no-rain"><h3>непотопляемая селфи палка</h3>
-        <p>4900р</p></li>
-    </ul>
-  </div>
-  <div class="pager">
-    <button class="gbuttonnazad"><h4>Назад</h4></button>
-    <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-    </ul>
-    <button class="gbuttonnvpered"><h4>Вперед</h4></button>
-  </div>
-  <div class="filtr">
-    <h4>Фильтр</h4>
-    <form>
-      <h3>стоимость</h3>
-      <button class="ot">от</button>
-      <button class="do">до</button>
-    </form>
-    <form>
-      <h3>Цвет</h3>
-      <input id="black" type="checkbox"><label for="black">Черный</label>
-      <input id="white" type="checkbox"><label for="white">Белый</label>
-      <input id="blue" type="checkbox"><label for="blue">Синий</label>
-      <input id="red" type="checkbox"><label for="red">Красный</label>
-      <input id="pink" type="checkbox"><label for="pink">Розовый</label>
-    </form>
-    <form>
-      <h3>Bluetooth</h3>
-      <input id="yes" type="radio"><label for="yes">Есть</label>
-      <input id="no" type="radio"><label for="no">Нет</label>
-    </form>
-    <button class="show"><h3>Показать</h3></button>
+  <div class="catalog">
+    <div class="filtr">
+      <h4>Фильтр</h4>
+      <form>
+        <h3>стоимость</h3>
+        <button class="ot">от</button>
+        <button class="do">до</button>
+      </form>
+      <form class="filtr-color">
+        <h3>Цвет</h3>
+        <div><input id="black" type="checkbox"><label for="black">Черный</label></div>
+        <div><input id="white" type="checkbox"><label for="white">Белый</label></div>
+        <div><input id="blue" type="checkbox"><label for="blue">Синий</label></div>
+        <div><input id="red" type="checkbox"><label for="red">Красный</label></div>
+        <div><input id="pink" type="checkbox"><label for="pink">Розовый</label></div>
+      </form>
+      <form>
+        <h3>Bluetooth</h3>
+        <input id="yes" type="radio"><label for="yes">Есть</label>
+        <input id="no" type="radio"><label for="no">Нет</label>
+      </form>
+      <button class="show"><h3>Показать</h3></button>
+    </div>
+    <div class="catalog-right">
+      <div class="change">
+        <h4>сортировка</h4>
+        <ul class="sorting">
+          <li>
+            <button class="cprice">по цене</button>
+          </li>
+          <li>
+            <button class="ctip">по типу</button>
+          </li>
+          <li>
+            <button class="cpopular">по популярности</button>
+          </li>
+          <li>
+            <button class="up">наверх</button>
+          </li>
+          <li>
+            <button class="down">вниз</button>
+          </li>
+        </ul>
+      </div>
+      <div class="gallery">
+        <div class="gallery-foto">
+          <div><img src="img/content/prof-user.png" width="360" height="380" alt="prof-user">
+            <h3>Профессиональная селфи палка</h3>
+            <p>1 500р</p></div>
+          <div><img src="img/content/nub-user.png" width="360" height="380" alt="nub-user">
+            <h3>юбительская селфи палка</h3>
+            <p>500р</p></div>
+          <div><img src="img/content/folow-me.png" width="360" height="380" alt="folow-me">
+            <h3>следуй за мной селфи палка</h3>
+            <p>2500р</p></div>
+          <div><img src="img/content/no-rain.png" width="360" height="380" alt="no-rain">
+            <h3>непотопляемая селфи палка</h3>
+            <p>4900р</p></div>
+        </div>
+      </div>
+      <div class="pager">
+        <button class="gbuttonnazad">Назад</button>
+        <ul class="pager-number">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+        <button class="gbuttonnvpered">Вперед</button>
+      </div>
+    </div>
   </div>
 </main>
 <footer class="footer">
   <h1>device</h1>
-  <div class="footer-menu">
-    <ul>
-      <li><a href="exit"><img src="img/decor/user.png" width="13" height="12" alt="user">выйти</a></li>
-      <li><a href="compare"><img src="img/decor/compare.png" width="10" height="10" alt="compare">сравнить</a></li>
-      <li><a href="basket"><img src="img/decor/cart.png" width="12" height="12" alt="cart">корзина</a></li>
-    </ul>
-  </div>
-  <div class="footer-navigation">
-    <ul>
-      <li><a href="доставка">доставка</a></li>
-      <li><a href="гарантия">гарантия</a></li>
-      <li><a href="контакты">контакты</a></li>
-    </ul>
-  </div>
-  <div class="footer-links">
-    <ul>
-      <li><a href="фэйсбук"><img src="img/decor/facebook.png" width="32" height="32" alt="facebook"></a></li>
-      <li><a href="инста"><img src="img/decor/inst.png" width="32" height="32" alt="inst"></a></li>
-      <li><a href="твит"><img src="img/decor/twitter.png" width="32" height="32" alt="twitter"></a></li>
-    </ul>
-  </div>
-  <div class="footer-contacts">
-    <ul>
-      <li>г.Москва, ул.Строителей,15</li>
-      <li>Тел.+7(495)495-95-95</li>
-    </ul>
-  </div>
+  <ul class="footer-menu">
+    <li><a href="enter"><img src="img/decor/user.png" width="13" height="12" alt="user">войти</a></li>
+    <li><a href="compare"><img src="img/decor/compare.png" width="10" height="10" alt="compare">сравнить</a></li>
+    <li><a href="cart"><img src="img/decor/cart.png" width="12" height="12" alt="cart">корзина</a></li>
+  </ul>
+  <ul class="footer-navigation">
+    <li><a href="доставка">доставка</a></li>
+    <li><a href="гарантия">гарантия</a></li>
+    <li><a href="контакты">контакты</a></li>
+  </ul>
+  <ul class="footer-links">
+    <li><a href="фэйсбук"><img src="img/decor/facebook.png" width="32" height="32" alt="facebook"></a></li>
+    <li><a href="инста"><img src="img/decor/inst.png" width="32" height="32" alt="inst"></a></li>
+    <li><a href="твит"><img src="img/decor/twitter.png" width="32" height="32" alt="twitter"></a></li>
+  </ul>
+  <ul class="footer-contacts">
+    <li>г.Москва, ул.Строителей,15</li>
+    <li>Тел.+7(495)495-95-95</li>
+  </ul>
   <img src="img/content/logo-html.png" alt="academlogo" width="27" height="35">
 </footer>
 </body>

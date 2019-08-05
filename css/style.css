@@ -1,0 +1,155 @@
+body {
+  width: 100%;
+  /*background: url("../img/device-index.jpg") no-repeat top, center;*/
+  margin: 0;
+}
+
+.header {
+  box-sizing: border-box;
+  width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  padding-left: 60px;
+  padding-right: 60px;
+  flex-direction: column;
+}
+
+.header h1 {
+  margin-top: 23px;
+  letter-spacing: 0.001em;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu li {
+  display: block;
+  margin: 0 10px;
+}
+
+.menu li:nth-child(2) {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navigation {
+
+  height: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  margin: 0 auto;
+  width: 1160px;
+}
+
+.menu-navigation {
+  padding-left: 60px;
+}
+
+.catalog {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery {
+  width: 830px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tovar-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.condition {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-sponsor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.breadcrumbs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sorting {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-foto {
+  width: 833px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.filtr {
+  width: 468px;
+  padding-left: 60px;
+}
+
+.filtr-color {
+  display: flex;
+  flex-direction: column;
+}
+
+.pager {
+  width: 760px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pager-number {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  box-sizing: border-box;
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.footer-menu {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+.footer-navigation {
+  width: 440px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-links {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-contacts {
+  display: flex;
+  justify-content: space-between;
+}
