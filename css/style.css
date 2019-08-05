@@ -39,8 +39,12 @@ body {
   margin: 0 auto;
   width: 1160px;
 }
-
+.catalog{
+  display: flex;
+  justify-content: space-between;
+}
 .gallery {
+  width: 830px;
   display: flex;
   justify-content: space-between;
 }
@@ -87,8 +91,14 @@ body {
 }
 
 .pager {
+  width: 760px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pager-number {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer {

@@ -9,18 +9,18 @@
 <body>
 <header class="header">
   <h1>DEVICE</h1>
-    <ul class="menu">
-      <li><a href=""><img src="img/decor/bsearch.png" width="16" height="16" alt="search">поиск товаров</a></li>
-      <li><a href=""><img src="img/decor/buser.png" width="13" height="12" alt="user">выйти</a></li>
-      <li><a href=""><img src="img/decor/bcompare.png" width="10" height="10" alt="compare">сравнить</a></li>
-      <li><a href=""><img src="img/decor/bcart.png" width="12" height="12" alt="cart">корзина</a></li>
-    </ul>
-    <ul class="navigation">
-      <li><a href="" class="header-catalog"><h3>каталог товаров</h3></a></li>
-      <li><a href="" class="header-delivery"><h3>доставка</h3></a></li>
-      <li><a href="" class="header-garant"><h3>гарантия</h3></a></li>
-      <li><a href="" class="header-contact"><h3>контакты</h3></a></li>
-    </ul>
+  <ul class="menu">
+    <li><a href=""><img src="img/decor/bsearch.png" width="16" height="16" alt="search">поиск товаров</a></li>
+    <li><a href=""><img src="img/decor/buser.png" width="13" height="12" alt="user">выйти</a></li>
+    <li><a href=""><img src="img/decor/bcompare.png" width="10" height="10" alt="compare">сравнить</a></li>
+    <li><a href=""><img src="img/decor/bcart.png" width="12" height="12" alt="cart">корзина</a></li>
+  </ul>
+  <ul class="navigation">
+    <li><a href="" class="header-catalog"><h3>каталог товаров</h3></a></li>
+    <li><a href="" class="header-delivery"><h3>доставка</h3></a></li>
+    <li><a href="" class="header-garant"><h3>гарантия</h3></a></li>
+    <li><a href="" class="header-contact"><h3>контакты</h3></a></li>
+  </ul>
 </header>
 <main class="main">
   <div class="menu-navigation">
@@ -31,68 +31,76 @@
       <li><a href="">моноподы для селфи</a></li>
     </ul>
   </div>
-  <div class="change">
-    <h4>сортировка</h4>
-    <ul class="sorting">
-      <li>
-        <button class="cprice">по цене</button>
-      </li>
-      <li>
-        <button class="ctip">по типу</button>
-      </li>
-      <li>
-        <button class="cpopular">по популярности</button>
-      </li>
-      <li>
-        <button class="up">наверх</button>
-      </li>
-      <li>
-        <button class="down">вниз</button>
-      </li>
-    </ul>
-  </div>
-  <div class="gallery">
-    <ul class="gallery-foto">
-      <li><img src="img/content/prof-user.png" width="360" height="380" alt="prof-user"><h3>Профессиональная селфи палка</h3>
-        <p>1 500р</p></li>
-      <li><img src="img/content/nub-user.png" width="360" height="380" alt="nub-user"><h3>юбительская селфи палка</h3>
-        <p>500р</p></li>
-      <li><img src="img/content/folow-me.png" width="360" height="380" alt="folow-me"><h3>следуй за мной селфи палка</h3>
-        <p>2500р</p></li>
-      <li><img src="img/content/no-rain.png" width="360" height="380" alt="no-rain"><h3>непотопляемая селфи палка</h3>
-        <p>4900р</p></li>
-    </ul>
-  </div>
-  <div class="pager">
-    <button class="gbuttonnazad"><h4>Назад</h4></button>
-    <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-    </ul>
-    <button class="gbuttonnvpered"><h4>Вперед</h4></button>
-  </div>
-  <div class="filtr">
-    <h4>Фильтр</h4>
-    <form>
-      <h3>стоимость</h3>
-      <button class="ot">от</button>
-      <button class="do">до</button>
-    </form>
-    <form>
-      <h3>Цвет</h3>
-      <input id="black" type="checkbox"><label for="black">Черный</label>
-      <input id="white" type="checkbox"><label for="white">Белый</label>
-      <input id="blue" type="checkbox"><label for="blue">Синий</label>
-      <input id="red" type="checkbox"><label for="red">Красный</label>
-      <input id="pink" type="checkbox"><label for="pink">Розовый</label>
-    </form>
-    <form>
-      <h3>Bluetooth</h3>
-      <input id="yes" type="radio"><label for="yes">Есть</label>
-      <input id="no" type="radio"><label for="no">Нет</label>
-    </form>
-    <button class="show"><h3>Показать</h3></button>
+  <div class="catalog">
+    <div class="filtr">
+      <h4>Фильтр</h4>
+      <form>
+        <h3>стоимость</h3>
+        <button class="ot">от</button>
+        <button class="do">до</button>
+      </form>
+      <form>
+        <h3>Цвет</h3>
+        <input id="black" type="checkbox"><label for="black">Черный</label>
+        <input id="white" type="checkbox"><label for="white">Белый</label>
+        <input id="blue" type="checkbox"><label for="blue">Синий</label>
+        <input id="red" type="checkbox"><label for="red">Красный</label>
+        <input id="pink" type="checkbox"><label for="pink">Розовый</label>
+      </form>
+      <form>
+        <h3>Bluetooth</h3>
+        <input id="yes" type="radio"><label for="yes">Есть</label>
+        <input id="no" type="radio"><label for="no">Нет</label>
+      </form>
+      <button class="show"><h3>Показать</h3></button>
+    </div>
+    <div class="catalog-right">
+      <div class="change">
+        <h4>сортировка</h4>
+        <ul class="sorting">
+          <li>
+            <button class="cprice">по цене</button>
+          </li>
+          <li>
+            <button class="ctip">по типу</button>
+          </li>
+          <li>
+            <button class="cpopular">по популярности</button>
+          </li>
+          <li>
+            <button class="up">наверх</button>
+          </li>
+          <li>
+            <button class="down">вниз</button>
+          </li>
+        </ul>
+      </div>
+      <div class="gallery">
+        <ul class="gallery-foto">
+          <li><img src="img/content/prof-user.png" width="360" height="380" alt="prof-user">
+            <h3>Профессиональная селфи палка</h3>
+            <p>1 500р</p></li>
+          <li><img src="img/content/nub-user.png" width="360" height="380" alt="nub-user">
+            <h3>юбительская селфи палка</h3>
+            <p>500р</p></li>
+          <li><img src="img/content/folow-me.png" width="360" height="380" alt="folow-me">
+            <h3>следуй за мной селфи палка</h3>
+            <p>2500р</p></li>
+          <li><img src="img/content/no-rain.png" width="360" height="380" alt="no-rain">
+            <h3>непотопляемая селфи палка</h3>
+            <p>4900р</p></li>
+        </ul>
+      </div>
+      <div class="pager">
+        <button class="gbuttonnazad">Назад</button>
+        <ul class="pager-number">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+        <button class="gbuttonnvpered">Вперед</button>
+      </div>
+    </div>
   </div>
 </main>
 <footer class="footer">
