@@ -107,6 +107,8 @@ body {
 }
 
 .footer {
+  box-sizing: border-box;
+  width: 1160px;
   margin: 0 auto;
 }
 
