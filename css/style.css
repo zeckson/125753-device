@@ -63,6 +63,7 @@ body {
   position: relative;
   left: -100px;
 }
+
 /*----INDEX----*/
 
 .main {
@@ -177,11 +178,21 @@ body {
 }
 
 /*---CATALOG---*/
+.menu-navigation {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+}
 
 .breadcrumbs {
   width: 400px;
   display: flex;
   justify-content: space-between;
+}
+.main-inf {
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .sorting {
@@ -208,15 +219,33 @@ body {
 }
 
 /*.merch-menu {*/
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+margin:
+
+0
+auto
+
+;
+display: flex
+
+;
+justify-content: space-between
+
+;
 }
 
 /*.merch-photo {*/
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+margin:
+
+0
+auto
+
+;
+display: flex
+
+;
+justify-content: space-between
+
+;
 }
 
 .filtr {
