@@ -41,6 +41,7 @@ body {
 }
 
 .navigation {
+  list-style: none;
   display: flex;
   justify-content: space-between;
 }
@@ -93,14 +94,24 @@ body {
 .merch-table {
   width: 1160px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
 }
+
 
 .merch-photo {
   width: 1160px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+}
+
+.merch-wrapper {
+  background-color: #f7e296;
+  width: 160px;
+  height: 160px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .merch-item {
@@ -111,6 +122,9 @@ body {
 .merch-text {
   display: flex;
   justify-content: space-between;
+}
+.merch-item h3 {
+  min-height: 5em;
 }
 
 .condition {
@@ -189,6 +203,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .main-inf {
   display: flex;
   justify-content: space-between;
@@ -301,4 +316,11 @@ justify-content: space-between
 .footer-contacts {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  top: -50px;
+}
+
+.footer-logo{
+  width: 50px;
+  margin-left: auto;
 }
