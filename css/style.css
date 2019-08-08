@@ -6,17 +6,16 @@ body {
 
 .header {
   box-sizing: border-box;
-  width: 1160px;
+  width: 1040px;
   margin: 0 auto;
   display: flex;
-  padding-left: 60px;
-  padding-right: 60px;
   flex-direction: column;
 }
 
-.header h1 {
-  margin-top: 23px;
-  letter-spacing: 0.001em;
+.logo-device {
+  position: relative;
+  left: -10px;
+  top: -10px;
 }
 
 .menu {
@@ -24,64 +23,163 @@ body {
   justify-content: space-between;
 }
 
-.menu li {
-  display: block;
-  margin: 0 10px;
-}
-
-.menu li:nth-child(2) {
-  margin-left: auto;
+.menu-search {
   margin-right: auto;
 }
 
-.navigation {
+.menu-enter {
+  margin: 0 auto;
+}
 
-  height: 37px;
+.menu-cart {
+  margin-left: auto;
+}
+
+.menu-compare {
+  position: relative;
+  left: 160px;
+}
+
+.navigation {
   display: flex;
   justify-content: space-between;
 }
 
-.main {
+.nav-catalog {
+  margin-right: auto;
+  position: relative;
+  left: -25px;
+}
+
+.nav-contacts {
+  margin-left: auto;
+}
+
+.nav-deleviry {
   margin: 0 auto;
+}
+
+.nav-garant {
+  position: relative;
+  left: -100px;
+}
+/*----INDEX----*/
+
+.main {
   width: 1160px;
+  margin: 0 auto;
+}
+
+.gallery-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-next {
+  margin-right: 50px;
 }
 
 .menu-navigation {
   padding-left: 60px;
 }
 
-.catalog {
+.merch-table {
+  width: 1160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.merch-photo {
+  width: 1160px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
 
-.gallery {
-  width: 830px;
-  display: flex;
-  justify-content: space-between;
+.merch-item {
+  width: 160px;
+  margin: auto;
 }
 
-.tovar-menu {
+.merch-text {
   display: flex;
   justify-content: space-between;
 }
 
 .condition {
+  height: 320px;
   display: flex;
   justify-content: space-between;
+}
+
+.condition-button {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  margin-right: auto;
+  margin-top: 75px;
+}
+
+.condition-text {
+  width: 460px;
+  margin: 0 auto;
+}
+
+.condition-img {
+  width: 140px;
+  margin-left: auto;
+  margin-top: 40px;
 }
 
 .logo-sponsor {
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
-.about {
+.inform {
   display: flex;
   justify-content: space-between;
 }
 
+.kontakti {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+}
+
+.kontakti button {
+  margin-right: auto;
+}
+
+.about {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-text {
+  margin: auto 0;
+}
+
+.about-link {
+  margin: auto 0;
+}
+
+.about-button {
+  margin: auto 0;
+}
+
+/*---CATALOG---*/
+
 .breadcrumbs {
+  width: 400px;
   display: flex;
   justify-content: space-between;
 }
@@ -91,12 +189,34 @@ body {
   justify-content: space-between;
 }
 
+.gallery-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.gallery-text {
+  width: 480px;
+  margin: 0 auto;
+}
+
 .gallery-foto {
   width: 833px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+/*.merch-menu {*/
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*.merch-photo {*/
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .filtr {
