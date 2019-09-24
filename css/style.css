@@ -3,10 +3,16 @@ body {
   /*background: url("../img/device-index.jpg") no-repeat top, center;*/
   margin: 0;
 }
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
 
 .header {
   box-sizing: border-box;
-  width: 1040px;
+  width: 1162px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -14,14 +20,33 @@ body {
 
 .logo-device {
   position: relative;
-  left: -10px;
-  top: -10px;
+  margin-left: 57px;
+  margin-top: 17px;
+  width: 165px;
+}
+
+.logo-device:hover {
+  background-color: gray;
+}
+
+.yelblock {
+  height: 300px;
+  margin-bottom: -100px;
+  background-color: #f7e296;
+  margin-top: -45px;
+  padding-top: 45px;
+  box-sizing: border-box;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .menu {
   display: flex;
   justify-content: space-between;
 }
+.menu a:hover{
+   color: #464646;
+ }
 
 .menu-search {
   margin-right: auto;
@@ -165,7 +190,6 @@ body {
 
 /*.kontakti {*/
 
-
 .kontakti button {
   margin-right: auto;
 }
@@ -229,7 +253,6 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 
 .filtr {
   width: 468px;
