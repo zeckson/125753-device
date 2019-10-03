@@ -3,10 +3,12 @@ body {
   /*background: url("../img/device-index.jpg") no-repeat top, center;*/
   margin: 0;
 }
-a{
+
+a {
   text-decoration: none;
 }
-li{
+
+li {
   list-style-type: none;
 }
 
@@ -26,7 +28,7 @@ li{
 }
 
 .logo-device:hover {
-  background-color: gray;
+  color: gray;
 }
 
 .yelblock {
@@ -44,25 +46,67 @@ li{
   display: flex;
   justify-content: space-between;
 }
-.menu a:hover{
-   color: #464646;
- }
 
-.menu-search {
+.menu a:hover {
+  color: gray;
+}
+
+.menu a:active {
+  color: darkgrey;
+}
+
+.menu-search a {
   margin-right: auto;
+  color: grey;
 }
 
 .menu-enter {
   margin: 0 auto;
 }
 
+.menu-enter a {
+  color: black;
+}
+
+.menu-enter a:hover {
+  color: gray;
+}
+
+.menu-enter a:active {
+  color: darkgrey
+}
+
 .menu-cart {
   margin-left: auto;
+}
+
+.menu-cart a {
+  color: black;
+}
+
+.menu-cart a:hover {
+  color: gray;
+}
+
+.menu-cart a:active {
+  color: darkgray;
 }
 
 .menu-compare {
   position: relative;
   left: 160px;
+}
+
+.menu-compare a {
+  color: black;
+}
+
+.menu-compare a:hover {
+  color: gray
+}
+
+.menu-compare a:active {
+  color: darkgray;
 }
 
 .navigation {
@@ -77,19 +121,48 @@ li{
   left: -25px;
 }
 
+.nav-catalog h3:hover {
+  color: gray
+}
+
+.nav-catalog h3:active {
+  color: darkgrey;
+}
+
 .nav-contacts {
   margin-left: auto;
+}
+
+.nav-contacts h3:hover {
+  color: gray;
+}
+
+.nav-contacts h3:active {
+  color: darkgrey
 }
 
 .nav-deleviry {
   margin: 0 auto;
 }
 
+.nav-deleviry h3:hover {
+  color: gray;
+}
+
+.nav-deleviry h3:active {
+  color: darkgrey;
+}
+
 .nav-garant {
   position: relative;
   left: -100px;
 }
-
+.nav-garant h3:hover{
+  color: gray;
+}
+.nav-garant h3:active{
+  color: darkgrey;
+}
 /*----INDEX----*/
 
 .main {
@@ -106,6 +179,14 @@ li{
 .gallery {
   display: flex;
   justify-content: space-between;
+}
+
+.more-button {
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+  background: none;
+  border-color: none;
 }
 
 .gallery-next {
@@ -279,6 +360,15 @@ li{
   box-sizing: border-box;
   width: 1160px;
   margin: 0 auto;
+}
+
+.footer a {
+  color: white;
+
+.gray-cont {
+  width: 1140px;
+  height: 323px;
+  background-color: gray;
 }
 
 .footer-menu {
