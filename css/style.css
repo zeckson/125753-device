@@ -91,17 +91,11 @@ input:focus + button {
 
 .menu-search button:hover {
   background-color: black;
+  color: white;
 }
 
 .menu-search button:active {
   background-color: black;
-}
-
-.menu-search h4:hover {
-  color: white;
-}
-
-.menu-search h4:active {
   color: grey;
 }
 
