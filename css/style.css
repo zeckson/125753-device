@@ -60,20 +60,51 @@ li {
   color: grey;
 }
 
-.menu-search a:hover{
+.menu-search a:hover {
   color: black;
 }
-.menu-search input{
+
+.menu-search input {
   background: none;
   border-color: black;
   border-style: none;
 }
+
 input:focus {
   border-style: none none solid none;
   border-color: black;
   outline: none;
+}
+
+input:focus + button {
+  visibility: visible;
+}
+
+.menu-search button {
+  visibility: hidden;
+  background: none;
+  border: 2px solid black;
+  width: 85px;
+  height: 50px;
 
 }
+
+.menu-search button:hover {
+  background-color: black;
+}
+
+.menu-search button:active {
+  background-color: black;
+}
+
+.menu-search h4:hover {
+  color: white;
+}
+
+.menu-search h4:active {
+  color: grey;
+}
+
 .menu-enter {
   margin: 0 auto;
 }
