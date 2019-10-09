@@ -157,12 +157,15 @@ li {
   position: relative;
   left: -100px;
 }
-.nav-garant h3:hover{
+
+.nav-garant h3:hover {
   color: gray;
 }
-.nav-garant h3:active{
+
+.nav-garant h3:active {
   color: darkgrey;
 }
+
 /*----INDEX----*/
 
 .main {
@@ -186,11 +189,12 @@ li {
   text-decoration: none;
   outline: none;
   background: none;
-  border-color: none;
+  border-style: none;
+
 }
 
-.gallery-next {
-  margin-right: 50px;
+.gallery-text h2 {
+  color: white
 }
 
 .menu-navigation {
@@ -219,6 +223,22 @@ li {
   vertical-align: middle;
 }
 
+.merch-wrapper:hover {
+  background-color: #f0c52e;
+}
+
+.merch-wrapper:active {
+  background-color: #f0c52e;
+}
+
+.merch-item h3:active {
+  color: grey;
+}
+
+.merch-item img:active {
+  opacity: 50;
+}
+
 .merch-item {
   width: 160px;
   margin: auto;
@@ -245,6 +265,12 @@ li {
   width: 160px;
   margin-right: auto;
   margin-top: 75px;
+}
+
+.condition-button button {
+  border-style: none;
+  background: none;
+
 }
 
 .condition-text {
@@ -289,8 +315,22 @@ li {
   margin: auto 0;
 }
 
+.about-link a {
+  color: black;
+}
+
 .about-button {
   margin: auto 0;
+}
+
+.about-button button {
+  background: none;
+  border-style: none;
+}
+
+.kontakti button {
+  border-style: none;
+  background: none;
 }
 
 /*---CATALOG---*/
@@ -362,8 +402,17 @@ li {
   margin: 0 auto;
 }
 
-.footer a {
-  color: white;
+.footer h1 {
+  color: #f0c52e;
+}
+
+.footer h1:hover {
+  color: #ffc600;
+}
+
+.footer h1:active {
+  color: #f7e296;
+}
 
 .gray-cont {
   width: 1140px;
@@ -376,6 +425,18 @@ li {
   display: flex;
   justify-content: space-between;
   margin-left: auto;
+}
+
+.footer-menu a {
+  color: darkgrey;
+}
+
+.footer-menu a:hover {
+  color: white;
+}
+
+.footer-menu a:active {
+  color: grey;
 }
 
 .footer-navigation {
@@ -394,6 +455,22 @@ li {
   margin-left: auto;
 }
 
+.footer-links a {
+  color: white;
+}
+
+.footer-navigation a {
+  color: white;
+}
+
+.footer-navigation a:hover {
+  color: grey;
+}
+
+.footer-navigation a:active {
+  color: darkgrey;
+}
+
 .footer-contacts {
   display: flex;
   justify-content: space-between;
@@ -401,7 +478,12 @@ li {
   top: -50px;
 }
 
+.footer-contacts li {
+  color: darkgray;
+}
+
 .footer-logo {
   width: 50px;
   margin-left: auto;
 }
+
