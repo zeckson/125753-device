@@ -60,6 +60,20 @@ li {
   color: grey;
 }
 
+.menu-search a:hover{
+  color: black;
+}
+.menu-search input{
+  background: none;
+  border-color: black;
+  border-style: none;
+}
+input:focus {
+  border-style: none none solid none;
+  border-color: black;
+  outline: none;
+
+}
 .menu-enter {
   margin: 0 auto;
 }
