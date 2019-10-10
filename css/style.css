@@ -64,6 +64,10 @@ li {
   color: black;
 }
 
+.menu-search img{
+  opacity: inherit;
+
+}
 .menu-search input {
   background: none;
   border-color: black;
@@ -164,6 +168,9 @@ input:focus + button {
   margin-left: 30px;
 }
 
+.nav-catalog img:hover{
+  color: grey;
+}
 .nav-catalog a:hover {
   color: gray
 }
@@ -172,9 +179,6 @@ input:focus + button {
   color: darkgrey;
 }
 
-.text-a {
-
-}
 
 .nav-contacts {
   margin-left: auto;
@@ -192,11 +196,11 @@ input:focus + button {
   margin: 0 auto;
 }
 
-.nav-deleviry h3:hover {
+.nav-deleviry a:hover {
   color: gray;
 }
 
-.nav-deleviry h3:active {
+.nav-deleviry a:active {
   color: darkgrey;
 }
 
@@ -205,14 +209,20 @@ input:focus + button {
   left: -100px;
 }
 
-.nav-garant h3:hover {
+.nav-garant a:hover {
   color: gray;
 }
 
-.nav-garant h3:active {
+.nav-garant a:active {
   color: darkgrey;
 }
 
+.nav-contacts a:hover{
+  color: grey;
+}
+.nav-contacts a:hover{
+  color: darkgrey;
+}
 /*----INDEX----*/
 
 .main {
