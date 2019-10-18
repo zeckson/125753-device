@@ -288,8 +288,12 @@ input:focus + button {
   background-color: #f0c52e;
 }
 
-.merch-item h3:active {
+.merch-item h3:hover {
   color: grey;
+}
+
+.merch-item h3:active{
+  color: darkgray;
 }
 
 .merch-item img:active {
