@@ -4,9 +4,17 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
 .header {
   box-sizing: border-box;
-  width: 1040px;
+  width: 1162px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -14,8 +22,24 @@ body {
 
 .logo-device {
   position: relative;
-  left: -10px;
-  top: -10px;
+  margin-left: 57px;
+  margin-top: 17px;
+  width: 165px;
+}
+
+.logo-device:hover {
+  color: gray;
+}
+
+.yelblock {
+  height: 300px;
+  margin-bottom: -100px;
+  background-color: #f7e296;
+  margin-top: -45px;
+  padding-top: 45px;
+  box-sizing: border-box;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .menu {
@@ -23,21 +47,110 @@ body {
   justify-content: space-between;
 }
 
-.menu-search {
+.menu a:hover {
+  color: gray;
+}
+
+.menu a:active {
+  color: darkgrey;
+}
+
+.menu-search a {
   margin-right: auto;
+  color: grey;
+}
+
+.menu-search a:hover {
+  color: black;
+}
+
+.menu-search img {
+  opacity: inherit;
+
+}
+
+.menu-search input {
+  background: none;
+  border-color: black;
+  border-style: none;
+}
+
+input:focus {
+  border-style: none none solid none;
+  border-color: black;
+  outline: none;
+}
+
+input:focus + button {
+  visibility: visible;
+}
+
+.menu-search button {
+  visibility: hidden;
+  background: none;
+  border: 2px solid black;
+  width: 85px;
+  height: 50px;
+
+}
+
+.menu-search button:hover {
+  background-color: black;
+  color: white;
+}
+
+.menu-search button:active {
+  background-color: black;
+  color: grey;
 }
 
 .menu-enter {
   margin: 0 auto;
 }
 
+.menu-enter a {
+  color: black;
+}
+
+.menu-enter a:hover {
+  color: gray;
+}
+
+.menu-enter a:active {
+  color: darkgrey
+}
+
 .menu-cart {
   margin-left: auto;
+}
+
+.menu-cart a {
+  color: black;
+}
+
+.menu-cart a:hover {
+  color: gray;
+}
+
+.menu-cart a:active {
+  color: darkgray;
 }
 
 .menu-compare {
   position: relative;
   left: 160px;
+}
+
+.menu-compare a {
+  color: black;
+}
+
+.menu-compare a:hover {
+  color: gray
+}
+
+.menu-compare a:active {
+  color: darkgray;
 }
 
 .navigation {
@@ -46,23 +159,86 @@ body {
   justify-content: space-between;
 }
 
+.navigation > li:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu {
+  z-index: 1;
+  display: none;
+  position: absolute;
+  width: 500px;
+  }
+
+.sub-menu a {
+  display: block;
+}
+
 .nav-catalog {
   margin-right: auto;
   position: relative;
   left: -25px;
 }
 
+.nav-catalog img {
+  margin-left: 30px;
+}
+
+.nav-catalog img:hover {
+  color: grey;
+}
+
+.nav-catalog a:hover {
+  color: gray
+}
+
+.nav-catalog a:active {
+  color: darkgrey;
+}
+
 .nav-contacts {
   margin-left: auto;
+}
+
+.nav-contacts h3:hover {
+  color: gray;
+}
+
+.nav-contacts h3:active {
+  color: darkgrey
 }
 
 .nav-deleviry {
   margin: 0 auto;
 }
 
+.nav-deleviry a:hover {
+  color: gray;
+}
+
+.nav-deleviry a:active {
+  color: darkgrey;
+}
+
 .nav-garant {
   position: relative;
   left: -100px;
+}
+
+.nav-garant a:hover {
+  color: gray;
+}
+
+.nav-garant a:active {
+  color: darkgrey;
+}
+
+.nav-contacts a:hover {
+  color: grey;
+}
+
+.nav-contacts a:hover {
+  color: darkgrey;
 }
 
 /*----INDEX----*/
@@ -83,8 +259,17 @@ body {
   justify-content: space-between;
 }
 
-.gallery-next {
-  margin-right: 50px;
+.more-button {
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+  background: none;
+  border-style: none;
+
+}
+
+.gallery-text h2 {
+  color: white
 }
 
 .menu-navigation {
@@ -111,6 +296,26 @@ body {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+}
+
+.merch-wrapper:hover {
+  background-color: #f0c52e;
+}
+
+.merch-wrapper:active {
+  background-color: #f0c52e;
+}
+
+.merch-item h3:hover {
+  color: grey;
+}
+
+.merch-item h3:active {
+  color: darkgray;
+}
+
+.merch-item img:active {
+  opacity: 50;
 }
 
 .merch-item {
@@ -141,6 +346,12 @@ body {
   margin-top: 75px;
 }
 
+.condition-button button {
+  border-style: none;
+  background: none;
+
+}
+
 .condition-text {
   width: 460px;
   margin: 0 auto;
@@ -164,19 +375,6 @@ body {
 }
 
 /*.kontakti {*/
-width:
-
-560
-px
-
-;
-display: flex
-
-;
-flex-direction: column
-
-;
-}
 
 .kontakti button {
   margin-right: auto;
@@ -196,8 +394,22 @@ flex-direction: column
   margin: auto 0;
 }
 
+.about-link a {
+  color: black;
+}
+
 .about-button {
   margin: auto 0;
+}
+
+.about-button button {
+  background: none;
+  border-style: none;
+}
+
+.kontakti button {
+  border-style: none;
+  background: none;
 }
 
 /*---CATALOG---*/
@@ -242,7 +454,6 @@ flex-direction: column
   flex-wrap: wrap;
 }
 
-
 .filtr {
   width: 468px;
   padding-left: 60px;
@@ -270,11 +481,41 @@ flex-direction: column
   margin: 0 auto;
 }
 
+.footer h1 {
+  color: #f0c52e;
+}
+
+.footer h1:hover {
+  color: #ffc600;
+}
+
+.footer h1:active {
+  color: #f7e296;
+}
+
+.gray-cont {
+  width: 1140px;
+  height: 323px;
+  background-color: gray;
+}
+
 .footer-menu {
   width: 360px;
   display: flex;
   justify-content: space-between;
   margin-left: auto;
+}
+
+.footer-menu a {
+  color: darkgrey;
+}
+
+.footer-menu a:hover {
+  color: white;
+}
+
+.footer-menu a:active {
+  color: grey;
 }
 
 .footer-navigation {
@@ -293,6 +534,22 @@ flex-direction: column
   margin-left: auto;
 }
 
+.footer-links a {
+  color: white;
+}
+
+.footer-navigation a {
+  color: white;
+}
+
+.footer-navigation a:hover {
+  color: grey;
+}
+
+.footer-navigation a:active {
+  color: darkgrey;
+}
+
 .footer-contacts {
   display: flex;
   justify-content: space-between;
@@ -300,7 +557,12 @@ flex-direction: column
   top: -50px;
 }
 
+.footer-contacts li {
+  color: darkgray;
+}
+
 .footer-logo {
   width: 50px;
   margin-left: auto;
 }
+

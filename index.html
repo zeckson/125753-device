@@ -9,23 +9,40 @@
 </head>
 <body>
 <header class="header">
-  <h1 class="logo-device">Device</h1>
-  <div class="menu">
-    <div class="menu-search"><a href="h1search"><img src="img/decor/search.png" width="16" height="16" alt="search">
-      поиск по сайту</a></div>
-    <div class="menu-enter"><a href="h1enter"><img src="img/decor/buser.png" width="13" height="12" alt="user">
-      войти</a></div>
-    <div class="menu-compare"><a href="h1compare"><img src="img/decor/bcompare.png" width="10" height="10"
-                                                       alt="compare"> сравнить</a></div>
-    <div class="menu-cart"><a href="h1cart"><img src="img/decor/bcart.png" width="12" height="12" alt="cart">
-      корзина</a></div>
+  <a href=""><h1 class="logo-device">Device</h1></a>
+  <div class="yelblock">
+    <div class="menu">
+      <div class="menu-search">
+        <img src="img/decor/search.png" width="16" height="16" alt="search">
+        <input type="text" size="20">
+        <button>Найти</button>
+      </div>
+
+      <div class="menu-enter"><a href="h1enter"><img src="img/decor/buser.png" width="13" height="12" alt="user">
+        войти</a></div>
+      <div class="menu-compare"><a href="h1compare"><img src="img/decor/bcompare.png" width="10"
+                                                         height="10"
+                                                         alt="compare"> сравнить</a></div>
+      <div class="menu-cart"><a href="h1cart"><img src="img/decor/bcart.png" width="12" height="12"
+                                                   alt="cart">
+        корзина</a></div>
+    </div>
+    <ul class="navigation">
+      <li class="nav-catalog"><a href="" class="text-a">каталог товаров<img src="img/decor/plus.svg"></a>
+        <ul class="sub-menu">
+          <li><a href="-">виртуальная реальность</a></li>
+          <li><a href="-">фитнес браслеты</a></li>
+          <li><a href="-">квадракоптеры</a></li>
+          <li><a href="-">моноподы для селфи</a></li>
+          <li><a href="-">умные часы</a></li>
+          <li><a href="-">экшен камеры</a></li>
+        </ul>
+      </li>
+      <li class="nav-deleviry"><a href="" class="text-a">доставка</a></li>
+      <li class="nav-garant"><a href="" class="text-a">гарантия</a></li>
+      <li class="nav-contacts"><a href="" class="text-a">контакты</a></li>
+    </ul>
   </div>
-  <ul class="navigation">
-    <li class="nav-catalog"><a href=""><h3>каталог товаров</h3></a></li>
-    <li class="nav-deleviry"><a href=""><h3>доставка</h3></a></li>
-    <li class="nav-garant"><a href=""><h3>гарантия</h3></a></li>
-    <li class="nav-contacts"><a href=""><h3>контакты</h3></a></li>
-  </ul>
 </header>
 <main class="main">
   <div class="gallery-container">
@@ -33,11 +50,13 @@
       <img src="img/content/palka.png" width="384" height="486" alt="palki">
     </div>
     <div class="gallery-text">
+      <div class="gallery-wrapper"></div>
       <h2>01</h2>
-      <h2>Дедлай селфи как бен сттилер</h2>
+      <h3>Делай селфи,<br> как бен сттилер</h3>
       <p>Самая длинная палка в мире, доступна в нашем магазине.
         <br>Восемь (Восемь Карл!)метров длиной и весом всего 5 кг.</p>
-      <button>Подробнее</button>
+      <button class="more-button"><a href=""></a>
+        <h3>Подробнее</h3></button>
       <table>
         <tr>
           <td>8.5 м</td>
@@ -53,117 +72,121 @@
     </div>
   </div>
   <div class="merch-table">
-      <div class="merch-item">
-        <a href="">
-          <div class="merch-wrapper"><img src="img/background/vr_glasses.png" width="97" height="55"></div>
-          <h3 class="1">Виртуальная <br>реальность</br></h3>
-        </a>
-      </div>
-      <div class="merch-item">
-        <a href="">
-          <div class="merch-wrapper"><img src="img/background/mono_pod.png" width="86" height="117" alt="mono-pod">
-          </div>
-          <h3>Моноподы <br>для селфи</br></h3>
-        </a>
-      </div>
-      <div class="merch-item">
-        <a href="">
-          <div class="merch-wrapper"><img src="img/background/action_camera.png" width="71" height="87"></div>
-          <h3>Экшн камеры</h3>
-        </a>
-      </div>
-      <div class="merch-item">
-        <a href="">
-          <div class="merch-wrapper"><img src="img/background/fitnestracker.png" width="107" height="65"></div>
-          <h3>Фитнес браслеты</h3>
-        </a>
-      </div>
-      <div class="merch-item">
-        <a href="">
-          <div class="merch-wrapper"><img src="img/background/watch.png" width="56" height="98" alt="watch"></div>
-          <h3>Умные часы</h3>
-        </a>
-      </div>
-      <div class="merch-item">
-        <a href="">
-          <div class="merch-wrapper"><img src="img/background/kvadrik.png" width="132" height="69" alt="kvadrik"></div>
-          <h3>Квадракоптеры</h3>
-        </a>
-      </div>
+
+    <div class="merch-item">
+      <a href="">
+        <div class="merch-wrapper"><img src="img/background/vr_glasses.png" width="97" height="55"></div>
+        <h3>Виртуальная <br>реальность</br></h3>
+      </a>
+    </div>
+
+    <div class="merch-item">
+      <a href="">
+        <div class="merch-wrapper"><img src="img/background/mono_pod.png" width="86" height="117" alt="mono-pod">
+        </div>
+        <h3>Моноподы <br>для селфи</br></h3>
+      </a>
+    </div>
+    <div class="merch-item">
+      <a href="">
+        <div class="merch-wrapper"><img src="img/background/action_camera.png" width="71" height="87"></div>
+        <h3>Экшн камеры</h3>
+      </a>
+    </div>
+    <div class="merch-item">
+      <a href="">
+        <div class="merch-wrapper"><img src="img/background/fitnestracker.png" width="107" height="65"></div>
+        <h3>Фитнес браслеты</h3>
+      </a>
+    </div>
+    <div class="merch-item">
+      <a href="">
+        <div class="merch-wrapper"><img src="img/background/watch.png" width="56" height="98" alt="watch"></div>
+        <h3>Умные часы</h3>
+      </a>
+    </div>
+    <div class="merch-item">
+      <a href="">
+        <div class="merch-wrapper"><img src="img/background/kvadrik.png" width="132" height="69" alt="kvadrik"></div>
+        <h3>Квадракоптеры</h3>
+      </a>
+    </div>
   </div>
-      <div class="condition">
-        <div class="condition-button">
-          <button class="udostavka">дотсавка</button>
-          <button class="ugarantiya">гарантия</button>
-          <button class="ukredit">кредит</button>
-        </div>
-        <div class="condition-text">
-          <h2>Доставка</h2>
-          <p>Мы с удовольствием доставим ваш товар прямо к вашему<br>
-            подьезду, совершенно бесплатно! Ведь мы неплохо<br>
-            заработаем, поднимая его на ваш этаж.</p>
-        </div>
-        <div class="condition-img">
-          <img src="img/background/delivery.png" width="136" height="164" alt="delivery">
-        </div>
+  <div class="condition">
+    <div class="condition-button">
+      <button class="udostavka">дотсавка</button>
+      <button class="ugarantiya">гарантия</button>
+      <button class="ukredit">кредит</button>
+    </div>
+    <div class="condition-text">
+      <h2>Доставка</h2>
+      <p>Мы с удовольствием доставим ваш товар прямо к вашему<br>
+        подьезду, совершенно бесплатно! Ведь мы неплохо<br>
+        заработаем, поднимая его на ваш этаж.</p>
+    </div>
+    <div class="condition-img">
+      <img src="img/background/delivery.png" width="136" height="164" alt="delivery">
+    </div>
+  </div>
+  <ul class="logo-sponsor">
+    <li><img src="img/content/dji.png" alt="dji" width="260" height="100"></li>
+    <li><img src="img/content/sp-gadjet.png" alt="spgadjets" width="260" height="100"></li>
+    <li><img src="img/content/gopro.png" alt="gopro" width="260" height="100"></li>
+    <li><img src="img/content/vive.png" alt="vive" width="260" height="100"></li>
+  </ul>
+  <div class="inform">
+    <div class="about">
+      <div class="about-text">
+        <h2>О нас</h2>
+        <p>Огромный выбор гаджетов не останет равнодушных гика,<br>
+          который есть в каждом из нас</p>
+        <p>Мы можем доставить ваш товар в самые отдаленные точки<br>
+          России! DEVICE работает со многоими транспортными компаниями</p>
       </div>
-      <ul class="logo-sponsor">
-        <li><img src="img/content/dji.png" alt="dji" width="260" height="100"></li>
-        <li><img src="img/content/sp-gadjet.png" alt="spgadjets" width="260" height="100"></li>
-        <li><img src="img/content/gopro.png" alt="gopro" width="260" height="100"></li>
-        <li><img src="img/content/vive.png" alt="vive" width="260" height="100"></li>
+      <ul class="about-link">
+        <li><a href="">Деловые линии</a></li>
+        <li><a href="">вторейдинг</a></li>
+        <li><a href="">желдорэкспедиция</a></li>
       </ul>
-      <div class="inform">
-        <div class="about">
-          <div class="about-text">
-            <h2>О нас</h2>
-            <p>Огромный выбор гаджетов не останет равнодушных гика,<br>
-              который есть в каждом из нас</p>
-            <p>Мы можем доставить ваш товар в самые отдаленные точки<br>
-              России! DEVICE работает со многоими транспортными компаниями</p>
-          </div>
-          <ul class="about-link">
-            <li><a href="">Деловые линии</a></li>
-            <li><a href="">вторейдинг</a></li>
-            <li><a href="">желдорэкспедиция</a></li>
-          </ul>
-          <div class="about-button">
-            <button>подробнее о нас</button>
-          </div>
-        </div>
-        <div class="kontakti">
-          <h2>контакты</h2>
-          <p>вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможите<br>проверить работоспособность
-            покупки.
-            Всякое бывает.</p>
-          <a href=""><img src="img/background/map.jpg" alt="maps" width="560" height="222"></a>
-          <button>напишите нам</button>
-        </div>
+      <div class="about-button">
+        <button>подробнее о нас</button>
       </div>
     </div>
+    <div class="kontakti">
+      <h2>контакты</h2>
+      <p>вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможите<br>проверить работоспособность
+        покупки.
+        Всякое бывает.</p>
+      <a href=""><img src="img/background/map.jpg" alt="maps" width="560" height="222"></a>
+      <button>напишите нам</button>
+    </div>
+  </div>
+  </div>
 </main>
 <footer class="footer">
-  <h1>device</h1>
-  <ul class="footer-menu">
-    <li><a href="enter"><img src="img/decor/user.png" width="13" height="12" alt="user">войти</a></li>
-    <li><a href="compare"><img src="img/decor/compare.png" width="10" height="10" alt="compare">сравнить</a></li>
-    <li><a href="cart"><img src="img/decor/cart.png" width="12" height="12" alt="cart">корзина</a></li>
-  </ul>
-  <ul class="footer-navigation">
-    <li><a href="доставка">доставка</a></li>
-    <li><a href="гарантия">гарантия</a></li>
-    <li><a href="контакты">контакты</a></li>
-  </ul>
-  <ul class="footer-links">
-    <li><a href="фэйсбук"><img src="img/decor/facebook.png" width="32" height="32" alt="facebook"></a></li>
-    <li><a href="инста"><img src="img/decor/inst.png" width="32" height="32" alt="inst"></a></li>
-    <li><a href="твит"><img src="img/decor/twitter.png" width="32" height="32" alt="twitter"></a></li>
-  </ul>
-  <ul class="footer-contacts">
-    <li>г.Москва, ул.Строителей,15</li>
-    <li>Тел.+7(495)495-95-95</li>
-  </ul>
-  <img src="img/content/logo-html.png" alt="academlogo" width="27" height="35">
+  <div class="gray-cont">
+    <a href=""><h1>device</h1></a>
+    <ul class="footer-menu">
+      <li><a href="enter"><img src="img/decor/user.png" width="13" height="12" alt="user">войти</a></li>
+      <li><a href="compare"><img src="img/decor/compare.png" width="10" height="10" alt="compare">сравнить</a></li>
+      <li><a href="cart"><img src="img/decor/cart.png" width="12" height="12" alt="cart">корзина</a></li>
+    </ul>
+    <ul class="footer-navigation">
+      <li><a href="доставка">доставка</a></li>
+      <li><a href="гарантия">гарантия</a></li>
+      <li><a href="контакты">контакты</a></li>
+    </ul>
+    <ul class="footer-links">
+      <li><a href="фэйсбук"><img src="img/decor/facebook.png" width="32" height="32" alt="facebook"></a></li>
+      <li><a href="инста"><img src="img/decor/inst.png" width="32" height="32" alt="inst"></a></li>
+      <li><a href="твит"><img src="img/decor/twitter.png" width="32" height="32" alt="twitter"></a></li>
+    </ul>
+    <ul class="footer-contacts">
+      <li>г.Москва, ул.Строителей,15</li>
+      <li>Тел.+7(495)495-95-95</li>
+    </ul>
+    <img src="img/content/logo-html.png" alt="academlogo" width="27" height="35">
+  </div>
 </footer>
 </body>
 </html>
