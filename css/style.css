@@ -64,10 +64,11 @@ li {
   color: black;
 }
 
-.menu-search img{
+.menu-search img {
   opacity: inherit;
 
 }
+
 .menu-search input {
   background: none;
   border-color: black;
@@ -158,6 +159,21 @@ input:focus + button {
   justify-content: space-between;
 }
 
+.navigation > li:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu {
+  z-index: 1;
+  display: none;
+  position: absolute;
+  width: 500px;
+  }
+
+.sub-menu a {
+  display: block;
+}
+
 .nav-catalog {
   margin-right: auto;
   position: relative;
@@ -168,9 +184,10 @@ input:focus + button {
   margin-left: 30px;
 }
 
-.nav-catalog img:hover{
+.nav-catalog img:hover {
   color: grey;
 }
+
 .nav-catalog a:hover {
   color: gray
 }
@@ -178,7 +195,6 @@ input:focus + button {
 .nav-catalog a:active {
   color: darkgrey;
 }
-
 
 .nav-contacts {
   margin-left: auto;
@@ -217,12 +233,14 @@ input:focus + button {
   color: darkgrey;
 }
 
-.nav-contacts a:hover{
+.nav-contacts a:hover {
   color: grey;
 }
-.nav-contacts a:hover{
+
+.nav-contacts a:hover {
   color: darkgrey;
 }
+
 /*----INDEX----*/
 
 .main {
@@ -292,7 +310,7 @@ input:focus + button {
   color: grey;
 }
 
-.merch-item h3:active{
+.merch-item h3:active {
   color: darkgray;
 }
 
